@@ -1,0 +1,9 @@
+{{ "<!-- Registro -->" | safeHTML }}
+<section id="registro" class="bg-light-gray">
+  <div class="container">
+      <div class="registro-info">
+        <h2>{{ with .Site.Params.registro.title }}{{ . }}{{ end }}</h2>
+        <div class="registro-body">{{ with .Site.Params.registro.description }}{{ . | markdownify }}{{ end }}</div>
+      </div>
+  </div>
+</section>

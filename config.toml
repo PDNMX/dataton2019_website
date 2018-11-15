@@ -1,4 +1,168 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke"
+# Site settings
+baseurl = "https://datatonanticorrupcion.github.io/"
+languageCode = "es-mx"
+defaultContentLanguage = "es"
+title = "Datatón Anticorrupción"
+theme = "dataton-agency"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "Dataton anticorrupcion"
+  description = "Your description"
+  # email = "your@email.com"
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  favicon    = "favicon.ico"
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
+
+  # 404 error customization
+  [params.error404]
+    heading = "No se encontró esa página"
+    text = "Por favor visita [esta página](/)"
+
+  # Navigation
+  [params.navigation]
+    brand = "DataTón Anticorrupción"
+    # Optional logo as brand stored in img/
+    #logo = "logo.svg"
+    info = "Convocatoria"
+    registro = "Registro"
+    team = "Mentores"
+    sede = "Sede"
+ 
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # postpended links
+    [[menu.postpend]]
+      url = "/info/reglas"
+      name = "Reglas"
+      weight = 8
+
+
+  # Sección de hero en homepage. 
+  [params.hero]
+  # Dado que el layout es muy particular para este evento, el contenido está 
+  # hardcoded en layouts/partials/hero.html
+
+  # Sección de información clave
+  [params.info]
+    enable = true
+    title = "Convocatoria"
+    description= """Te invitamos a participar en el datatón anticorrupción, un evento donde construiremos 
+herramientas que utilicen datos abiertos con el fin de combatir la corrupción en nuestro país.
+
+#### Fecha y sede
+El evento se realizará el **sábado 8 de diciembre de 9 a 18 hrs** en las instalaciones de NUMA, ubicadas en:
+
+> Campeche 233 Col. Hipódromo. Ciudad de México. 
+
+#### Dirigido a
+Aunque la participación es abierta, consideramos que las personas que más pueden aportar son aquellas con experiencia 
+en alguno de los siguientes campos: ciencia de datos, desarrollo de software, comunicación, y diseño. Dado que tenemos 
+una capacidad limitada en la sede, daremos prioridad de participación a las personas con estos roles.
+
+#### Quién convoca
+Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataformadigitalnacional.org), y es producido por <a href="https://sg.com.mx">Software Guru</a>.
+"""
+
+  # Sección para registro
+  [params.registro]
+    enable = true
+    title = "Registro"
+    description = """La participación es gratuita pero el cupo es limitado. 
+    Te pedimos que llenes la solicitud y te contactaremos para confirmar tu lugar.
+
+<a href="https://goo.gl/forms/yZhZTbi0Xn8bIHhq1" class="btn btn-xl" target="_blank">Llenar solicitud</a>
+
+    """
+
+  # Sección para sede
+  [params.sede]
+  enable = false
+  title = "Sede"
+  name = "NUMA México"
+  description = """Campeche 233 Col. Hipódromo. Ciudad de México.  
+  https://www.numa.co/mexico
+  """
+
+  # Team section
+  [params.team]
+    enable = false
+    #center = true
+    title = "Mentores"
+    subtitle = "Pronto compartiremos aquí información sobre los mentores."
+
+    # Las fotos de los mentores se almacenan en 'static/img/team'.
+    # Tratar de utilizar imágenes de por lo menos 360px*360px.
+
+    [[params.team.members]]
+      img = "2.jpg"
+      name = "Larry Parker"
+      position = "Lead Marketer"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+
+  # Client section
+    [params.clients_list]
+      enable = true
+      # Possibility to center items
+      #center = true
+      # Optional client title specifying the involvement
+      #title = "Invita"
+
+      # Los logos de los aliados están en 'static/img/logos'.
+      # El tamaño ideal es 280px*80px
+      [[params.clients]]
+        logo = "sesna.jpg"
+        link = "https://www.gob.mx/sesna"
+
+      [[params.clients]]
+        logo = "pdn.png"
+        link = "https://plataformadigitalnacional.org"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "Producido por Software Guru."
+
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      link = "https://twitter.com/SESNAOficial"
+      title = "Twitter"
+
+    [[params.footer.social]]
+      icon = "fa-facebook"
+      link = "https://www.facebook.com/SESNAOficial"
+      title = "Facebook"
+
+    [[params.footer.social]]
+      icon = "fa-envelope-o"
+      link = "mailto:dataton@sg.com.mx"
+      title = "Correo electrónico"
+
+    [[params.footer.quicklinks]]
+      text = "Privacidad de datos"
+      link = "/info/reglas/#privacidad"
+
