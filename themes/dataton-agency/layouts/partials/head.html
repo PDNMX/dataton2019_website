@@ -4,7 +4,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
   {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
-  {{ .Hugo.Generator }}
+  <meta property="og:title" content="{{ .Title }}" />
+  <meta property="og:url" content="{{ .Permalink }}" />
+  {{ with .Site.Params.description }}<meta property="og:description" content="{{ . }}" />{{ end }}
+  {{ with .Site.Params.image }}<meta property="og:image" content="{{ . }}" />{{ end }}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{ .Title }}" />
+  <meta name="twitter:url" content="{{ .Permalink }}" />
+  {{ with .Site.Params.twitter_user }}<meta name="twitter:site" content="{{ . }}" />{{ end }}
+  {{ with .Site.Params.image }}<meta name="twitter:image" content="{{ . }}">{{ end }}
+
   <title>{{ .Title }}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>
   {{ "<!-- Stylesheets -->" | safeHTML }}
   <link href="{{ "css/bootstrap-v3.3.7/bootstrap.min.css" | absURL }}" rel="stylesheet">
