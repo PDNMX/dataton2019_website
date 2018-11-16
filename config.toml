@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://datatonanticorrupcion.github.io/"
+baseurl = "https://datatonanticorrupcion.mx/"
 languageCode = "es-mx"
 defaultContentLanguage = "es"
 title = "Datatón Anticorrupción"
@@ -19,7 +19,10 @@ googleAnalytics = ""
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "Dataton anticorrupcion"
-  description = "Your description"
+  description = """El datatón anticorrupción es un evento donde construiremos herramientas 
+  que utilicen datos abiertos con el fin de combatir la corrupción en México."""
+  image = "https://datatonanticorrupcion.mx/img/dataton-card.png"
+  twitter_user = "@RevistaSG"
   # email = "your@email.com"
 
   # Link custom assets relative to /static
