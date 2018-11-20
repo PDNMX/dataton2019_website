@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    {{ partial "head.html" . }}
+
+    <body id="page-top" class="single">
+        {{ partial "nav.html" . }}    
+
+            <section id="main" class="container">
+                <h1 id="title">{{ .Title }}</h1>
+                <div>
+                    <article id="content">
+                        <div class="col-md-6 col-sm-8">
+                            <ul class="faq">
+                                {{ range $index, $element := .Site.Params.faq }} 
+                                <li>
+                                    <a data-toggle="collapse" href="#q{{ $index }}" class="faq-question">{{ $element.question }}</a>
+                                    <div id="q{{ $index }}" class="faq-answer collapse">
+                                        {{ $element.answer | markdownify }}
+                                    </div>          
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </div>                    
+                    </article>
+                </div>
+            </section>
+
+        {{ partial "js.html" . }}
+
+    </body>
+</html>
+      

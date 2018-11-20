@@ -59,6 +59,10 @@ googleAnalytics = ""
       name = "Reglas"
       weight = 8
 
+    [[menu.postpend]]
+      url = "/info/preguntas-frecuentes"
+      name = "Preguntas frecuentes"
+      weight = 9
 
   # Sección de hero en homepage. 
   [params.hero]
@@ -127,28 +131,70 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
       ]
 
 
-  # Client section
-    [params.clients_list]
+  # Sponsors section
+  # Los logos de los aliados están en 'static/img/logos'.
+  # El tamaño ideal es 280px*80px
+    [params.sponsors]
       enable = true
-      # Possibility to center items
-      #center = true
-      # Optional client title specifying the involvement
-      #title = "Invita"
+      center = true
 
-      # Los logos de los aliados están en 'static/img/logos'.
-      # El tamaño ideal es 280px*80px
-      [[params.clients]]
+    [params.sponsors1_list]
+      enable = true
+      title = "Organizado por"
+
+      [[params.sponsors1]]
+        logo = "pdn_logo_cortado.png"
+        link = "https://plataformadigitalnacional.org"
+
+      [[params.sponsors1]]
         logo = "sesna.jpg"
         link = "https://www.gob.mx/sesna"
 
-      [[params.clients]]
-        logo = "pdn.png"
-        link = "https://plataformadigitalnacional.org"
+    [params.sponsors2_list]
+      enable = true
+      title = "Con el apoyo de"
+
+      [[params.sponsors2]]
+        logo = "usaid.png"
+        link = "https://www.usaid.gov"
+
+    [params.sponsors3_list]
+      enable = true
+      title = "Producido por"
+
+      [[params.sponsors3]]
+        logo = "sg.png"
+        link = "https://sg.com.mx"
+
+  #FAQ
+  [params.faq_list]
+    enable = true
+
+    [[params.faq]]
+      question = "¿Quiénes pueden participar?"
+      answer = """La participación es abierta, pero tenemos cupo limitado. 
+Consideramos que las personas que más pueden aportar son aquellas con experiencia en alguno de los 
+siguientes campos: ciencia de datos, desarrollo de software, comunicación, y diseño. 
+
+Si te interesa participar, por favor llena la forma de solicitud de participación. 
+"""
+
+    [[params.faq]]
+      question = "¿Requiero llevar mi propio equipo de cómputo?"
+      answer = "Sí, por favor lleva tu propio equipo."
+
+    [[params.faq]]
+      question = "Somos varias personas que queremos participar, ¿todos deben llenar la solicitud?"
+      answer = "Sí, cada uno debe llenar la solicitud de participación."
+
+    [[params.faq]]
+      question = "¿Qué datos usaremos?"
+      answer = "Pronto publicaremos en este sitio los datos a utilizar."
 
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Producido por Software Guru."
+    copyright = ""
 
     [[params.footer.social]]
       icon = "fa-twitter"
