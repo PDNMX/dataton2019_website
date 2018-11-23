@@ -13,11 +13,8 @@ googleAnalytics = ""
   # most longer texts.
   #
   # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
-  # for more icons. The icons are represented by their corresponding
-  # CSS class.
 
-  # To provide some metadata for search engines feel free to add a few
-  # information about you and your website.
+  # Metadata for search engines
   name = "Dataton anticorrupcion"
   description = """El datatón anticorrupción es un evento donde construiremos herramientas 
   que utilicen datos abiertos con el fin de combatir la corrupción en México."""
@@ -50,10 +47,14 @@ googleAnalytics = ""
     sede = "Sede"
  
     # Add custom links. Those can be pre- and postpended to the default menu above.
-    # Use the weight attribute to order your custom links. Uncomment the example
-    # below and replace the values with your own.
+    # Use the weight attribute to order your custom links. 
 
     # postpended links
+    [[menu.postpend]]
+      url = "/info/temas"
+      name = "Temas"
+      weight = 7
+
     [[menu.postpend]]
       url = "/info/reglas"
       name = "Reglas"
@@ -61,7 +62,7 @@ googleAnalytics = ""
 
     [[menu.postpend]]
       url = "/info/preguntas-frecuentes"
-      name = "Preguntas frecuentes"
+      name = "Dudas"
       weight = 9
 
   # Sección de hero en homepage. 

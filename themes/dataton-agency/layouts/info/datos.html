@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    {{ partial "head.html" . }}
+
+    <body id="page-top" class="single">
+        {{ partial "nav.html" . }}    
+
+            <section id="main" class="container">
+                <h1 id="title">{{ .Title }}</h1>
+                <div>
+                    <article id="content">
+                        <div class="col-md-10 col-sm-12">
+                            <ul class="faq">
+                                {{ $url := "https://docs.google.com/spreadsheets/d/e/2PACX-1vSlp2DC38JwJ6SsZgmdVVCP2VCFxMF0VvTXWDDCLJv0PZHp_8l6szSuvV9KOmwZ0NJ7T7zyAPPEOPD6/pub?gid=1228884255&single=true&output=csv" }}
+                                {{ $sep := "," }}
+                                {{ range $i, $r := getCSV $sep $url }}
+                                    {{ if gt $i 0 }} 
+                                <li>
+                                    <a data-toggle="collapse" href="#q{{ $i }}" class="faq-question">{{ index $r 4 }} 
+                                    - {{ index $r 0 }}</a>
+                                    <div id="q{{ $i }}" class="faq-answer collapse">
+                                        <p>{{ index $r 6 }}</p>
+                                        <a href="{{ index $r 5 }}">Ir a repositorio</a>
+                                    </div>          
+                                </li>
+                                    {{ end }}
+                                {{ end }}
+                            </ul>
+                        </div>                    
+                    </article>
+                </div>
+            </section>
+
+        {{ partial "js.html" . }}
+
+    </body>
+</html>

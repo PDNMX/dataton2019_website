@@ -1056,3 +1056,14 @@ a.faq-question {
     border-bottom-right-radius: 7px;
 	display:block;
 }
+
+article#content li {
+    margin-bottom: 0.8em;
+}
+
+.tema-box {
+    margin: 0.5em 1em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+}
