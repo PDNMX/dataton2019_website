@@ -740,7 +740,7 @@ section h3.section-subheading {
 
 @media(min-width:992px) {
     aside.clients img {
-        margin: 50px auto;
+        margin: 50px auto 20px auto;
     }
 }
 
