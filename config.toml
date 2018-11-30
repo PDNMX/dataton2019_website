@@ -153,16 +153,29 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
         link = "https://plataformadigitalnacional.org"
 
       [[params.sponsors1]]
-        logo = "sesna.jpg"
+        logo = "sesna.png"
         link = "https://www.gob.mx/sesna"
 
     [params.sponsors2_list]
       enable = true
-      title = "Con el apoyo de"
+      title = "Con el apoyo de" 
 
       [[params.sponsors2]]
         logo = "usaid.png"
         link = "https://www.usaid.gov"
+
+   
+
+      [[params.sponsors2]]
+        logo = "coparmex.png"
+        link = "https://coparmex.org.mx"
+
+      
+      [[params.sponsors2]]
+        logo = "DSAM.png"
+        link = "https://www.datascienceacademy.com.mx"
+
+      
 
     [params.sponsors3_list]
       enable = true
