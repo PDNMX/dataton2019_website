@@ -232,5 +232,5 @@ Si te interesa participar, por favor llena la forma de solicitud de participaci√
 
     [[params.footer.quicklinks]]
       text = "C√≥digo de Conducta"
-      link = "/info/coc"
+      url = "/info/coc"
 
