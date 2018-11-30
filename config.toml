@@ -231,6 +231,6 @@ Si te interesa participar, por favor llena la forma de solicitud de participaci�
       title = "Correo electrónico"
 
     [[params.footer.quicklinks]]
-      text = "Privacidad de datos"
-      link = "/info/reglas/#privacidad"
+      text = "Código de Conducta"
+      link = "/info/coc"
 
