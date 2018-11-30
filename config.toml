@@ -6,7 +6,7 @@ title = "Datatón Anticorrupción"
 theme = "dataton-agency"
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-21077034-33"
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or
