@@ -164,18 +164,37 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
         logo = "usaid.png"
         link = "https://www.usaid.gov"
 
-   
-
       [[params.sponsors2]]
         logo = "coparmex.png"
         link = "https://coparmex.org.mx"
 
-      
       [[params.sponsors2]]
         logo = "DSAM.png"
         link = "https://www.datascienceacademy.com.mx"
 
-      
+      [[params.sponsors2]]
+        logo = "unodc.png"
+        link = "https://www.unodc.org/unodc/es/index.html"
+
+      [[params.sponsors2]]
+        logo = "uk.png"
+        link = "https://www.gov.uk/world/organisations/british-embassy-mexico-city.es-419"
+
+      [[params.sponsors2]]
+        logo = "pnud.png"
+        link = "http://www.undp.org/content/undp/es/home.html"
+
+      [[params.sponsors2]]
+        logo = "integrity.png"
+        link = "https://www.allianceforintegrity.org/es/"
+
+      [[params.sponsors2]]
+        logo = "cpc.png"
+        link = "https://cpc.org.mx/"
+
+      [[params.sponsors2]]
+        logo = "nostarch.png"
+        link = "https://nostarch.com/"
 
     [params.sponsors3_list]
       enable = true
