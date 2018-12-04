@@ -100,10 +100,9 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
   [params.registro]
     enable = true
     title = "Registro"
-    description = """La participación es gratuita pero el cupo es limitado. 
-    Te pedimos que llenes la solicitud y te contactaremos para confirmar tu lugar.
-
-<a href="https://goo.gl/forms/yZhZTbi0Xn8bIHhq1" class="btn btn-xl" target="_blank">Llenar solicitud</a>
+    description = """La participación es gratuita pero el cupo es limitado. <br><br>
+    <strong>¡Gracias por tu interés en el DataTón Anticorrupción! El registro se ha cerrado</strong>
+    .
 
     """
 
@@ -227,7 +226,19 @@ Si te interesa participar, por favor llena la forma de solicitud de participaci�
 
     [[params.faq]]
       question = "¿Qué datos usaremos?"
-      answer = "Pronto publicaremos en este sitio los datos a utilizar."
+      answer = "Puedes consultar los datos disponibles en la sección datos https://datatonanticorrupcion.mx/info/datos/"
+
+    [[params.faq]]
+      question = "¿Hay tamaño máximo de miembros por equipo?"
+      answer = "5 personas es el máximo por equipo"
+
+    [[params.faq]]
+      question = "¿Hay premios?"
+      answer = "Sí, El premio principal será un paquete con regalos y herramientas de utilidad para todos los perfiles en el equipo, No será dinero. Te aseguramos que valdrá la pena el esfuerzo."
+
+    [[params.faq]]
+      question = "¿De quien es la propiedad intelectual de los proyectos?"
+      answer = "De los creadores de los proyectos"
 
   # Footer section
   [params.footer]
