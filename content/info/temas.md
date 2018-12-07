@@ -81,5 +81,5 @@ A continuación listamos algunas preguntas clave que nos interesa poder contesta
 * ¿Qué funcionarios han sido sancionados? ¿qué puesto tienen registrado? ¿Cuál fue la falta?<br> <strong>Datasets relevantes a esta pregunta
 <ul>
 	<li><a href="https://github.com/datatonanticorrupcion/08_servidores_publicos_sancionados">08 Registro de servidores públicos sancionados (RSPS)</a></li>
-	<li><a href="https://github.com/datatonanticorrupcion/17_servidores_publicos_contrataciones">17 Registro de Servidores Públicos de la Administración Pública Federal que intervienen en procedimientos de contrataciones públicas, el otorgamiento de licencias, permisos, concesiones y autorizaciones, así como en la enajenación de bienes muebles de la administración pública federal y en la asignación y emisión de dictámenes en materia de avalúos y justipreciación de rentas (RENIRESP)</a></li>
+	<li><a href="https://github.com/datatonanticorrupcion/17_servidores_publicos_contrataciones">17 Registro de los servidores públicos de la APF que intervienen en procedimientos de contrataciones públicas (RENIRESP)</a></li>
 </ul></strong>
