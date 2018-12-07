@@ -35,14 +35,14 @@ a.active {
 }
 
 a {
-    color: #70e597;
+    color: #2A5DB0;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #285c54;
+    color: #70e597;
 }
 
 h1,

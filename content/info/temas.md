@@ -17,69 +17,69 @@ A continuación listamos algunas preguntas clave que nos interesa poder contesta
 ### Contrataciones
 * ¿Cuáles son las dependencias que realizan las contrataciones con mayores montos, en qué estado, ciudad y municipio están? ¿qué tipo de procedimiento de contratación tienen y para qué se usan esos contratos? ¿Cuál es la duración promedio de estos contratos? ¿Quiénes son los responsables de estos contratos? ¿Existen servidores públicos sancionados como responsable de estos contratos o pertenecientes a estas dependencias?
 * ¿Cuáles son las empresas que tienen el mayor monto en contratos celebrados? ¿Cuál es el estatus de sus proyectos? ¿Qué tipo de productos y servicios ofrecen? ¿A qué dependencias les venden? ¿Cómo ha sido su histórico de contratos? ¿Han estado sancionadas, qué tipo de sanción?
-* ¿Cómo varía el monto de contrataciones en cada sector? ¿Cómo varía el monto de contrataciones en las dependencias? <br> <strong>Datasets relevantes a esta pregunta</strong>
+* ¿Cómo varía el monto de contrataciones en cada sector? ¿Cómo varía el monto de contrataciones en las dependencias? <br> <strong>Datasets relevantes a esta pregunta
 <ul>
 	<li><a href="https://github.com/datatonanticorrupcion/07_compranet">07 CompraNet</a></li>
 	<li><a href="https://github.com/datatonanticorrupcion/17_servidores_publicos_contrataciones">17 Registro de Servidores Públicos de la Administración Pública Federal que intervienen en procedimientos de contrataciones públicas, el otorgamiento de licencias, permisos, concesiones y autorizaciones, así como en la enajenación de bienes muebles de la administración pública federal y en la asignación y emisión de dictámenes en materia de avalúos y justipreciación de rentas (RENIRESP)</a></li>
-</ul>
+</ul></strong>
  
 ### Rendición de cuentas
-* ¿Qué tipo de proyectos son los que se están haciendo y en qué dependencias con el fin modernizar la gestión pública?<br> <strong>Datasets relevantes a esta pregunta</strong>
+* ¿Qué tipo de proyectos son los que se están haciendo y en qué dependencias con el fin modernizar la gestión pública?<br> <strong>Datasets relevantes a esta pregunta
 <ul>
 	<li><a href="https://github.com/datatonanticorrupcion/03_mejora_gubernamental">03 Sistema de Información de Proyectos de Mejora Gubernamental</a></li>
-</ul>
-* ¿En qué sectores se celebran la mayor cantidad de contratos? ¿Cómo es el grado de cumplimiento de proveedores de la APF? ¿Existen proveedores con muchos contratos y un nivel bajo de cumplimiento? ¿Existen proveedores que estén sancionados?<br> <strong>Datasets relevantes a esta pregunta</strong>
+</ul></strong>
+* ¿En qué sectores se celebran la mayor cantidad de contratos? ¿Cómo es el grado de cumplimiento de proveedores de la APF? ¿Existen proveedores con muchos contratos y un nivel bajo de cumplimiento? ¿Existen proveedores que estén sancionados?<br> <strong>Datasets relevantes a esta pregunta
 <ul>
 	<li><a href="https://github.com/datatonanticorrupcion/07_compranet">07 CompraNet</a></li>
 	<li><a href="https://github.com/datatonanticorrupcion/04_proveedores_contratistas_sancionados">04 Directorio de Proveedores y Contratistas sancionados (DPSC)</a></li>
-</ul>
-* ¿Cómo ha evolucionado el presupuesto asignado por dependencia a través de los años?  ¿A qué ramo o entidad se les ha asignado el presupuesto? ¿Cómo se comportan los presupuestos según su estatus (original, modificado, comprometido, devengado, pagado)<br> <strong>Datasets relevantes a esta pregunta</strong>
+</ul></strong>
+* ¿Cómo ha evolucionado el presupuesto asignado por dependencia a través de los años?  ¿A qué ramo o entidad se les ha asignado el presupuesto? ¿Cómo se comportan los presupuestos según su estatus (original, modificado, comprometido, devengado, pagado)<br> <strong>Datasets relevantes a esta pregunta
 <ul>
 	<li><a href="https://github.com/datatonanticorrupcion/11_presupuesto_egresos">11 Asignación y ejecución del presupuesto de egresos de la federación</a></li>
-</ul>
-* ¿Cómo varían los montos asignados según la clasificación del proyecto (salud, educación, transporte, seguridad, vivienda) y el tipo de proyecto (infraestructura económica, social, gubernamental)? ¿Cuál es el origen del presupuesto (subsidios, aportaciones federales, convenios o fideicomisos) según la clasificación y el tipo de proyecto? ¿Cuántos proyectos se tienen en cada bin? ¿Cómo es el flujo contable?<br> <strong>Datasets relevantes a esta pregunta</strong>
+</ul></strong>
+* ¿Cómo varían los montos asignados según la clasificación del proyecto (salud, educación, transporte, seguridad, vivienda) y el tipo de proyecto (infraestructura económica, social, gubernamental)? ¿Cuál es el origen del presupuesto (subsidios, aportaciones federales, convenios o fideicomisos) según la clasificación y el tipo de proyecto? ¿Cuántos proyectos se tienen en cada bin? ¿Cómo es el flujo contable?<br> <strong>Datasets relevantes a esta pregunta
 <ul>
 	<li><a href="https://github.com/datatonanticorrupcion/12_proyectos_entidades">12 Proyectos entidades federativas</a></li>
-</ul>
+</ul></strong>
 * ¿Existen diferencias en el monto de los contratos por el tipo de contratación (adquisiciones, arrendamientos, obra y servicios y por estado de la República?
 * ¿Cuál es la distribución de los contratos de gasto federalizado (vigente, rescindidos, suspendidos, terminados anticipadamente, terminados) por entidad federativa? ¿De qué monto son dichos contratos?
-* ¿Cómo fue el ejercicio de gasto de aquellas entidades que sean atípicas?<br> <strong>Datasets relevantes a esta pregunta</strong>
+* ¿Cómo fue el ejercicio de gasto de aquellas entidades que sean atípicas?<br> <strong>Datasets relevantes a esta pregunta
 <ul>
 	<li><a href="https://github.com/datatonanticorrupcion/13_contratos_gasto">13 Contratos de gasto federalizado</a></li>
 	<li><a href="https://github.com/datatonanticorrupcion/15_transparencia_presupuestaria">15 Transparencia Presupuestaria</a></li>
-</ul>
+</ul></strong>
 * ¿Cómo ha sido la evolución de los ingresos tributarios desde 2010 por el tipo de impuesto (ISR, IVA e impuestos especiales)? ¿Existen tipos de impuestos que hayan crecido mucho?
-<br> <strong>Datasets relevantes a esta pregunta</strong>
+<br> <strong>Datasets relevantes a esta pregunta
 <ul>
 	<li><a href="https://github.com/datatonanticorrupcion/14_recaudacion_ingresos_tributarios">14 Recaudación de ingresos tributarios del Gobierno Federal</a></li>
-</ul>
+</ul></strong>
 
 ### Delitos y sanciones
 * ¿Cómo se compara la cantidad de delitos de cohecho en México vs el mundo?
-* ¿Cómo ha evolucionado con el tiempo la cantidad de delitos de cohecho en el mundo?<br> <strong>Datasets relevantes a esta pregunta</strong>
+* ¿Cómo ha evolucionado con el tiempo la cantidad de delitos de cohecho en el mundo?<br> <strong>Datasets relevantes a esta pregunta
 <ul>
 	<li><a href="https://github.com/datatonanticorrupcion/01_cohecho_internacional">01 Cohecho internacional</a></li>
-</ul>
+</ul></strong>
 * ¿Cuál es el perfil (sector, ubicación, sitio web, calificación) de los contratistas y proveedores sancionados (cruzar con base 28 RUPC)? ¿Existe un perfil similar? ¿Qué tipo de sanciones tienen? ¿Cuál es el monto de los contratos que han celebrado (cruzar con compranet)? ¿Están interviniendo en otros procesos de contratación (compranet)? 
 * ¿Cuáles son las instituciones en donde se están generando más sanciones y de qué tipo son las mismas? 
 (ver si se puede obtener el histórico de sanciones, pues cuando pagan la multa salen del registro)<br>
-<strong>Datasets relevantes a esta pregunta</strong>
+<strong>Datasets relevantes a esta pregunta
 <ul>
 	<li><a href="https://github.com/datatonanticorrupcion/04_proveedores_contratistas_sancionados">04 Directorio de Proveedores y Contratistas sancionados (DPSC)</a></li>
 	<li><a href="https://github.com/datatonanticorrupcion/07_compranet">07 CompraNet</a></li>
-</ul>
+</ul></strong>
 * ¿Cómo varía el número de funcionarios sancionados por dependencia? ¿existen dependencias con más sanciones? ¿qué tipo de faltas cometieron? ¿qué sanciones recibieron? ¿cuáles son las faltas más comunes?
-* ¿Los funcionarios sancionados estuvieron como responsables en alguna contratación? ¿Qué tipo de contratación, con qué empresas y con qué monto? ¿Esas empresas tienen alguna sanción?<br> <strong>Datasets relevantes a esta pregunta</strong>
+* ¿Los funcionarios sancionados estuvieron como responsables en alguna contratación? ¿Qué tipo de contratación, con qué empresas y con qué monto? ¿Esas empresas tienen alguna sanción?<br> <strong>Datasets relevantes a esta pregunta
 <ul>
 	<li><a href="https://github.com/datatonanticorrupcion/04_proveedores_contratistas_sancionados">04 Directorio de Proveedores y Contratistas sancionados (DPSC)</a></li>
 	<li><a href="https://github.com/datatonanticorrupcion/07_compranet">07 CompraNet</a></li>
 	<li><a href="https://github.com/datatonanticorrupcion/08_servidores_publicos_sancionados">08 Registro de servidores públicos sancionados (RSPS)</a></li>
-</ul>
+</ul></strong>
 * ¿Cómo varía el número de personas habilitadas para contratar por dependencia?
 * ¿Cuál fue el status de actividad promedio anual para contratar?
 * ¿Cuál es el tipo de puesto de las personas que están habilitadas para contratar? ¿Hay un tipo de puesto que esté más habilitado?
-* ¿Qué funcionarios han sido sancionados? ¿qué puesto tienen registrado? ¿Cuál fue la falta?<br> <strong>Datasets relevantes a esta pregunta</strong>
+* ¿Qué funcionarios han sido sancionados? ¿qué puesto tienen registrado? ¿Cuál fue la falta?<br> <strong>Datasets relevantes a esta pregunta
 <ul>
 	<li><a href="https://github.com/datatonanticorrupcion/08_servidores_publicos_sancionados">08 Registro de servidores públicos sancionados (RSPS)</a></li>
 	<li><a href="https://github.com/datatonanticorrupcion/17_servidores_publicos_contrataciones">17 Registro de Servidores Públicos de la Administración Pública Federal que intervienen en procedimientos de contrataciones públicas, el otorgamiento de licencias, permisos, concesiones y autorizaciones, así como en la enajenación de bienes muebles de la administración pública federal y en la asignación y emisión de dictámenes en materia de avalúos y justipreciación de rentas (RENIRESP)</a></li>
-</ul>
+</ul></strong>
