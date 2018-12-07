@@ -240,6 +240,14 @@ Si te interesa participar, por favor llena la forma de solicitud de participaci�
       question = "¿De quien es la propiedad intelectual de los proyectos?"
       answer = "De los creadores de los proyectos"
 
+    [[params.faq]]
+      question = "¿Cómo van a evaluar los proyectos?"
+      answer = "Cada equipo tendrá 4 minutos para presentar su solución, los elementos que se van a evaluar son: <ul><li>Relevancia</li><li>Reproducibilidad</li><li>Impacto</li><li>Uso de datos del SESNA</li><ul>"
+
+    [[params.faq]]
+      question = "¿Qué tipo de entregables esperan?"
+      answer = "ntendemos que por el tiempo de trabajo tan corto es difícil que puedas terminar un proyecto que la mayoría de los  entregables serán  de análisis descriptivo, sabemos que no hay tanta data para hacer  predicciones pero algunas ideas de que lo puedes entregar es:<br> Notebook de Jupyter<br>por su puesto Un Dashboard sería genial<br>Si trabajas con R un entregable con R y markdown eso puede funcionar "
+
   # Footer section
   [params.footer]
     enable = true
