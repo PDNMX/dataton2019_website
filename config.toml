@@ -98,12 +98,11 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
 
   # Sección para registro
   [params.registro]
-    enable = true
+    enable = false
     title = "Registro"
-    description = """La participación es gratuita pero el cupo es limitado. <br><br>
-    <strong>¡Gracias por tu interés en el DataTón Anticorrupción! El registro se ha cerrado</strong>
-    .
-
+    description = """<p>El registro se ha cerrado.</p>
+    <p>Pronto publicaremos
+    aquí información sobre los proyectos desarrollados.</p>
     """
 
   # Sección para sede
@@ -117,23 +116,83 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
 
   # Team section
   [params.team]
-    enable = false
+    enable = true
     #center = true
     title = "Mentores"
-    subtitle = "Pronto compartiremos aquí información sobre los mentores."
 
     # Las fotos de los mentores se almacenan en 'static/img/team'.
     # Tratar de utilizar imágenes de por lo menos 360px*360px.
 
     [[params.team.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
+      img = "paola_villarreal.jpg"
+      name = "Paola Villarreal"
+      position = "Director of Product Engineering @ Creative Commons"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/paw"],
+        ["fa-linkedin", "https://www.linkedin.com/in/pawmx/"]
       ]
+
+    [[params.team.members]]
+      img = "sofia_ramirez.jpg"
+      name = "Sofía Ramírez"
+      position = "Directora Adjunta de Investigación Aplicada @ Mexicanos contra la Corrupción y la Impunidad"
+      social = [
+        ["fa-twitter", "https://twitter.com/sofia_ramireza"],
+      ]
+
+    [[params.team.members]]
+      img = "alexandra_zapata.jpg"
+      name = "Alexandra Zapata"
+      position = "Directora de Educación e Innovación Cívica @ Instituto Mexicano para la Competitividad (IMCO)"
+      social = [
+        ["fa-twitter", "https://twitter.com/azapatah"],
+        ["fa-linkedin", "https://www.linkedin.com/in/azapatah/"]
+      ]
+      
+    [[params.team.members]]
+      img = "diana_sifuentes.jpg"
+      name = "Diana Sifuentes"
+      position = "Data Scientist @ Data2B"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/dianasifuentesmunch/"]
+      ]
+
+    [[params.team.members]]
+      img = "jose_toral.jpg"
+      name = "José Manuel Toral"
+      position = "Especialista de datos @ Mexicanos contra la Corrupción y la Impunidad"
+      social = [
+        ["fa-twitter", "https://twitter.com/jmtoralc"],
+        ["fa-linkedin", "https://www.linkedin.com/in/josetoral/"]
+      ]
+
+    [[params.team.members]]
+      img = "jm_casanueva.jpg"
+      name = "Juan Manuel Casanueva"
+      position = "Director Ejecutivo @ Social TIC"
+      social = [
+        ["fa-twitter", "https://twitter.com/jm_casanueva"],
+        ["fa-linkedin", "https://www.linkedin.com/in/jmcasanueva/"]
+      ]
+
+    [[params.team.members]]
+      img = "jorge_a_castaneda.jpg"
+      name = "Jorge Andrés Castañeda"
+      position = "Coordinador de Proyectos @ Instituto Mexicano para la Competitividad (IMCO)"
+      social = [
+        ["fa-twitter", "https://twitter.com/jorgeacast"],
+        ["fa-linkedin", "https://www.linkedin.com/in/jorge-andres-castaneda-0044a75/"]
+      ]
+
+    [[params.team.members]]
+      img = "jesus_ramos.jpg"
+      name = "Jesús Ramos"
+      position = "Director de Operaciones @ Datank.ai"
+      social = [
+        ["fa-twitter", "https://twitter.com/xuxoramos"],
+        ["fa-linkedin", "https://www.linkedin.com/in/xuxoramos/"]
+      ]
+
 
 
   # Sponsors section
