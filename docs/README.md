@@ -1,8 +1,5 @@
 ## Cuidado si cambias este repo.
 
-Este repositorio es la versión en vivo de https://datatonanticorrupcion.mx hospedada en Github Pages.
+Este directorio se está sirviendo via GitHub pages para el sitio web en https://datatonanticorrupcion.mx
 
-El sitio se genera usando este otro repo: https://github.com/datatonanticorrupcion/websrc
-
-Así que si haces un cambio directo en este repositorio, corres el riesgo de que ese cambio se pierda 
-si no te aseguras que también se haga el cambio en el repositorio fuente.
+Este directorio se genera por medio de Hugo, e idealmente no deberías hacer cambios directamente en él porque se van a perder la próxima vez que se genere el sitio. Para realizar cambios, hazlos en los archivos usados por Hugo (ve el README en el directorio raíz de este repo).
