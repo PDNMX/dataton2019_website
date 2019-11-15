@@ -4,7 +4,7 @@ date: 2019-10-30T00:00:00-06:00
 draft: false
 ---
 
-La Asamblea General de las Naciones Unidas designó el 9 de diciembre como el Día Internacional Contra la Corrupción. El propósito de esta fecha es incentivar,, en todo el mundo, a la reflexión sobre cómo combatir la corrupción a través de la realización de acciones concretas que involucren a la sociedad y a diversas autoridades.  
+La Asamblea General de las Naciones Unidas designó el 9 de diciembre como el Día Internacional Contra la Corrupción. El propósito de esta fecha es incentivar, en todo el mundo, a la reflexión sobre cómo combatir la corrupción a través de la realización de acciones concretas que involucren a la sociedad y a diversas autoridades.  
  
 Con el fin de extender la discusión sobre la lucha anticorrupción en México, un conjunto de organizaciones sociales, gubernamentales, privadas e internacionales llevarán a cabo actividades que fomenten la participación ciudadana en la construcción de integridad. 
  
@@ -37,5 +37,5 @@ Para lograr los objetivos anteriormente citados, se analizarán datos abiertos q
 * Los contratos; 
 * Los servidores públicos involucrados en procesos de contratación pública. 
 
-Se espera que el análisis y el trabajo logren *detectar posibles redes de corrupción*. 
+Se espera que el análisis y el trabajo logren **detectar posibles redes de corrupción**. 
  
