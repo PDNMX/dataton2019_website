@@ -1,4 +1,3 @@
-## Cuidado si cambias este repo.
 
 Este repositorio tiene el código del sitio web en https://datatonanticorrupcion.mx.
 
