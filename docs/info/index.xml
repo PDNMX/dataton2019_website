@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Infos on Datatón Anticorrupción</title>
+    <link>https://datatonanticorrupcion.mx/info/</link>
+    <description>Recent content in Infos on Datatón Anticorrupción</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-mx</language>
+    <lastBuildDate>Fri, 30 Nov 2018 00:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://datatonanticorrupcion.mx/info/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Código de Conducta</title>
+      <link>https://datatonanticorrupcion.mx/info/coc/</link>
+      <pubDate>Fri, 30 Nov 2018 00:00:00 -0600</pubDate>
+      
+      <guid>https://datatonanticorrupcion.mx/info/coc/</guid>
+      <description>Al participar en el DataTón Anticorrupción hackathon ya sea como competidor, organizador, mentor o patrocinador, aceptas acatar este código de conducta, y cooperar con los organizadores del evento que lo hacen cumplir.
+La Versión Rápida SG se encarga de proporcionar una experiencia libre de acoso para todos, sin importar género, orientación sexual, discapacidad, edad, apariencia física, tamaño corporal, raza o religión. No toleramos el acoso de ningún tipo en nuestros asistentes.</description>
+    </item>
+    
+    <item>
+      <title>Datos</title>
+      <link>https://datatonanticorrupcion.mx/info/datos/</link>
+      <pubDate>Thu, 22 Nov 2018 08:42:12 -0600</pubDate>
+      
+      <guid>https://datatonanticorrupcion.mx/info/datos/</guid>
+      <description>El contenido de esta página se genera usando layouts/info/datos.html
+Este archivo existe simplemente como placeholder para el url.</description>
+    </item>
+    
+    <item>
+      <title>Temas</title>
+      <link>https://datatonanticorrupcion.mx/info/temas/</link>
+      <pubDate>Thu, 22 Nov 2018 08:42:12 -0600</pubDate>
+      
+      <guid>https://datatonanticorrupcion.mx/info/temas/</guid>
+      <description>Buscamos que los equipos participantes construyan soluciones enfocadas en las siguientes áreas:
+Contrataciones Rendición de cuentas Sanciones y delitos  A continuación listamos algunas preguntas clave que nos interesa poder contestar para cada área. Si te interesa conocer cómo determinamos estos temas y preguntas puedes revisar este documento.
+Contrataciones  ¿Cuáles son las dependencias que realizan las contrataciones con mayores montos, en qué estado, ciudad y municipio están? ¿qué tipo de procedimiento de contratación tienen y para qué se usan esos contratos?</description>
+    </item>
+    
+    <item>
+      <title>Reglas</title>
+      <link>https://datatonanticorrupcion.mx/info/reglas/</link>
+      <pubDate>Wed, 14 Nov 2018 14:42:12 -0600</pubDate>
+      
+      <guid>https://datatonanticorrupcion.mx/info/reglas/</guid>
+      <description>Derechos de propiedad intelectual  Los participantes garantizan que son los autores únicos y acreedores de los derechos de autor (patrimoniales y morales) o que tienen autorización de uso de los derechos de un tercero.
+ Las soluciones no pueden infringir la propiedad o derechos de ningún otro individuo o entidad como está establecido en las leyes mexicanas y el derecho internacional.
+ Los Participantes son dueños de la propiedad intelectual de sus proyectos.</description>
+    </item>
+    
+    <item>
+      <title>Preguntas frecuentes</title>
+      <link>https://datatonanticorrupcion.mx/info/preguntas-frecuentes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://datatonanticorrupcion.mx/info/preguntas-frecuentes/</guid>
+      <description>El contenido de esta página se genera usando parámetros de config.toml [params.faq]. El layout es controlado por layouts/info/faq.html</description>
+    </item>
+    
+  </channel>
+</rss>

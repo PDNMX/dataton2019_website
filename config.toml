@@ -4,6 +4,7 @@ languageCode = "es-mx"
 defaultContentLanguage = "es"
 title = "Datatón Anticorrupción"
 theme = "dataton-agency"
+publishDir = "docs"
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-21077034-33"
