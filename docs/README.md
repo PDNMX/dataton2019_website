@@ -1,8 +1,20 @@
 ## Cuidado si cambias este repo.
 
-Este repositorio es la versión en vivo de https://datatonanticorrupcion.mx hospedada en Github Pages.
+Este repositorio tiene el código del sitio web en https://datatonanticorrupcion.mx.
 
-El sitio se genera usando este otro repo: https://github.com/datatonanticorrupcion/websrc
+Está hecho con Hugo (https://gohugo.io/), un generador de sitios estático.
 
-Así que si haces un cambio directo en este repositorio, corres el riesgo de que ese cambio se pierda 
-si no te aseguras que también se haga el cambio en el repositorio fuente.
+La carpeta /docs es la que tiene el sitio estático, que se está sirviendo via GitHub Pages.
+
+## Procedimiento para modificar el sitio
+Para hacer cambios al sitio, se haría lo siguiente:
+
+1. Instalar Hugo en tu computadora.
+2. Clonar este repositorio.
+3. Hacer los cambios requeridos:
+  - Textos del homepage, menú de navegación, info de mentores y faq están en **config.toml** 
+  - Otras páginas, como la de Contexto o Datos son archivos en markdown que están bajo **content/info/**
+  - El css que se usa es **themes/dataton-agency/static/css/agency.css**
+  - Las imagenes se suben a **themes/dataton-agency/static/img/**
+4. Pueden probar el sitio localmente corriendo `hugo serve` desde el directorio raíz.
+5. Para "compilar" el sitio en archivos estáticos, ejecutar `hugo` desde el directorio raíz, y esto va a poner los archivos estáticos en  el directorio /docs
