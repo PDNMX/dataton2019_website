@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://datatonanticorrupcion.mx/info/coc/</loc>
-    <lastmod>2018-11-30T00:00:00-06:00</lastmod>
+    <loc>https://datatonanticorrupcion.mx/info/contexto/</loc>
+    <lastmod>2019-10-30T00:00:00-06:00</lastmod>
   </url>
   
   <url>
     <loc>https://datatonanticorrupcion.mx/</loc>
-    <lastmod>2018-11-30T00:00:00-06:00</lastmod>
+    <lastmod>2019-10-30T00:00:00-06:00</lastmod>
   </url>
   
   <url>
     <loc>https://datatonanticorrupcion.mx/info/</loc>
+    <lastmod>2019-10-30T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://datatonanticorrupcion.mx/info/coc/</loc>
     <lastmod>2018-11-30T00:00:00-06:00</lastmod>
   </url>
   

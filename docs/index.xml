@@ -6,10 +6,20 @@
     <description>Recent content on Datatón Anticorrupción</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-mx</language>
-    <lastBuildDate>Fri, 30 Nov 2018 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2019 00:00:00 -0600</lastBuildDate>
     
 	<atom:link href="https://datatonanticorrupcion.mx/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Contexto</title>
+      <link>https://datatonanticorrupcion.mx/info/contexto/</link>
+      <pubDate>Wed, 30 Oct 2019 00:00:00 -0600</pubDate>
+      
+      <guid>https://datatonanticorrupcion.mx/info/contexto/</guid>
+      <description>La Asamblea General de las Naciones Unidas designó el 9 de diciembre como el Día Internacional Contra la Corrupción. El propósito de esta fecha es incentivar,, en todo el mundo, a la reflexión sobre cómo combatir la corrupción a través de la realización de acciones concretas que involucren a la sociedad y a diversas autoridades.
+Con el fin de extender la discusión sobre la lucha anticorrupción en México, un conjunto de organizaciones sociales, gubernamentales, privadas e internacionales llevarán a cabo actividades que fomenten la participación ciudadana en la construcción de integridad.</description>
+    </item>
     
     <item>
       <title>Código de Conducta</title>
@@ -27,8 +37,8 @@ La Versión Rápida SG se encarga de proporcionar una experiencia libre de acoso
       <pubDate>Thu, 22 Nov 2018 08:42:12 -0600</pubDate>
       
       <guid>https://datatonanticorrupcion.mx/info/datos/</guid>
-      <description>El contenido de esta página se genera usando layouts/info/datos.html
-Este archivo existe simplemente como placeholder para el url.</description>
+      <description>Las bases de datos que estarán disponibles para este reto serán las de tres de los seis sistemas de la Plataforma Digital Nacional:
+ Sistema 2 (S2) - Sistema de los Servidores públicos que intervengan en procedimientos de contrataciones públicas. Sistema 3 (S3) - Sistema nacional de Servidores públicos y particulares sancionados. Sistema 6 (S6) - Sistema de Información Pública de Contrataciones (incluyendo EDCA y sus extensiones).  El uso de estas bases no es restrictivo.</description>
     </item>
     
     <item>
