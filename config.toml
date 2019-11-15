@@ -44,7 +44,7 @@ googleAnalytics = "UA-21077034-33"
     #logo = "logo.svg"
     info = "Convocatoria"
     registro = "Registro"
-    team = "Mentores"
+    mentores = "Mentores"
     sede = "Sede"
  
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -52,19 +52,14 @@ googleAnalytics = "UA-21077034-33"
 
     # postpended links
     [[menu.postpend]]
-      url = "/info/temas"
-      name = "Temas"
-      weight = 6
-
-    [[menu.postpend]]
       url = "/info/datos"
       name = "Datos"
       weight = 7
 
     [[menu.postpend]]
-      url = "/info/reglas"
-      name = "Reglas"
-      weight = 8
+      url = "/info/contexto"
+      name = "Contexto"
+      weight = 6
 
     [[menu.postpend]]
       url = "/info/preguntas-frecuentes"
@@ -80,17 +75,21 @@ googleAnalytics = "UA-21077034-33"
   [params.info]
     enable = true
     title = "Convocatoria"
-    description= """Te invitamos a participar en el datatón anticorrupción, un evento donde construiremos 
-herramientas que utilicen datos abiertos con el fin de combatir la corrupción en nuestro país.
+    description= """Te invitamos a participar en el datatón anticorrupción, un evento donde diseñaremos y construiremos 
+herramientas digitales para detectar y combatir la corrupción por medio de datos abiertos.
 
 #### Fecha y sede
 El evento se realizará el **sábado 7 de diciembre de 9 a 20 hrs** en la Escuela de Gobierno y Transformación Pública del Tecnológico de Monterrey, sede Mixcoac ubicada en 
 
 > Av. Revolución 756, CDMX.
 
+#### Tema
+En esta edición nos enfocaremos en el tema de contrataciones públicas, y los resultados que generemos serán tomados en cuenta
+para el diseño de la nueva versión de Compranet. 
+
 #### Dirigido a
 Aunque la participación es abierta, consideramos que las personas que más pueden aportar son aquellas con experiencia 
-en alguno de los siguientes campos: ciencia de datos, desarrollo de software, comunicación, y diseño. Dado que tenemos 
+en alguno de los siguientes campos: ciencia de datos, desarrollo de software, diseño UX, periodismo, comunicación, derecho, economía. Dado que tenemos 
 una capacidad limitada en la sede, daremos prioridad de participación a las personas con estos roles.
 
 #### Quién convoca
@@ -99,7 +98,7 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
 
   # Sección para registro
   [params.registro]
-    enable = false
+    enable = true
     title = "Registro"
     description = """<p>El registro se ha cerrado.</p>
     <p>Pronto publicaremos
@@ -115,8 +114,8 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
   https://escueladegobierno.itesm.mx/acerca-de-la-escuela
   """
 
-  # Team section
-  [params.team]
+  # Mentores
+  [params.mentores]
     enable = true
     #center = true
     title = "Mentores"
@@ -124,16 +123,15 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
     # Las fotos de los mentores se almacenan en 'static/img/team'.
     # Tratar de utilizar imágenes de por lo menos 360px*360px.
 
-    [[params.team.members]]
+    [[params.mentores.members]]
       img = "paola_villarreal.jpg"
-      name = "Paola Villarreal"
-      position = "Director of Product Engineering @ Creative Commons"
+      name = "Romy Flores Gonzalez"
+      position = "Directora de análisis para el proyecto Procura México en SHCP"
+      bio = "Ingeniera en sistemas Computacionales egresada del ITESM CCM 06 . Es directora de Análisis para el proyecto Procura México para la SHCP, cuenta con certificaciones por parte de IBM en diseño de soluciones,  Solution Designer , así como en dirección de proyectos por parte del project management institute (PMI). Se ha desempeñado también en la iniciativa privada en desarrollo de negocios en innovación (INNBIT’s Business development Deputy Director) y  en tecnología para el sector público (Public Sector Competitivity manager at Softtek)"
       social = [
-        ["fa-twitter", "https://twitter.com/paw"],
-        ["fa-linkedin", "https://www.linkedin.com/in/pawmx/"]
       ]
 
-    [[params.team.members]]
+    [[params.mentores.members]]
       img = "sofia_ramirez.jpg"
       name = "Sofía Ramírez"
       position = "Directora Adjunta de Investigación Aplicada @ Mexicanos contra la Corrupción y la Impunidad"
@@ -141,7 +139,7 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
         ["fa-twitter", "https://twitter.com/sofia_ramireza"],
       ]
 
-    [[params.team.members]]
+    [[params.mentores.members]]
       img = "alexandra_zapata.jpg"
       name = "Alexandra Zapata"
       position = "Directora de Educación e Innovación Cívica @ Instituto Mexicano para la Competitividad (IMCO)"
@@ -150,7 +148,7 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
         ["fa-linkedin", "https://www.linkedin.com/in/azapatah/"]
       ]
       
-    [[params.team.members]]
+    [[params.mentores.members]]
       img = "diana_sifuentes.jpg"
       name = "Diana Sifuentes"
       position = "Data Scientist @ Data2B"
@@ -158,7 +156,7 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
         ["fa-linkedin", "https://www.linkedin.com/in/dianasifuentesmunch/"]
       ]
 
-    [[params.team.members]]
+    [[params.mentores.members]]
       img = "jose_toral.jpg"
       name = "José Manuel Toral"
       position = "Especialista de datos @ Mexicanos contra la Corrupción y la Impunidad"
@@ -167,7 +165,7 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
         ["fa-linkedin", "https://www.linkedin.com/in/josetoral/"]
       ]
 
-    [[params.team.members]]
+    [[params.mentores.members]]
       img = "jm_casanueva.jpg"
       name = "Juan Manuel Casanueva"
       position = "Director Ejecutivo @ Social TIC"
@@ -176,7 +174,7 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
         ["fa-linkedin", "https://www.linkedin.com/in/jmcasanueva/"]
       ]
 
-    [[params.team.members]]
+    [[params.mentores.members]]
       img = "jorge_a_castaneda.jpg"
       name = "Jorge Andrés Castañeda"
       position = "Coordinador de Proyectos @ Instituto Mexicano para la Competitividad (IMCO)"
@@ -185,7 +183,7 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
         ["fa-linkedin", "https://www.linkedin.com/in/jorge-andres-castaneda-0044a75/"]
       ]
 
-    [[params.team.members]]
+    [[params.mentores.members]]
       img = "jesus_ramos.jpg"
       name = "Jesús Ramos"
       position = "Director de Operaciones @ Datank.ai"
@@ -205,7 +203,7 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
 
     [params.sponsors1_list]
       enable = true
-      title = "Organizado por"
+      title = "Una iniciativa de"
 
       [[params.sponsors1]]
         logo = "pdn_logo_texto.png"
@@ -217,49 +215,45 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
 
     [params.sponsors2_list]
       enable = true
-      title = "Con el apoyo de" 
+      title = "Patrocinada por" 
 
       [[params.sponsors2]]
         logo = "usaid.png"
         link = "https://www.usaid.gov"
 
-      [[params.sponsors2]]
+    [params.sponsors3_list]
+      enable = true
+      title = "Con el apoyo de" 
+
+      [[params.sponsors3]]
         logo = "coparmex.png"
         link = "https://coparmex.org.mx"
 
-      [[params.sponsors2]]
-        logo = "DSAM.png"
-        link = "https://www.datascienceacademy.com.mx"
 
-      [[params.sponsors2]]
+      [[params.sponsors3]]
         logo = "unodc.png"
         link = "https://www.unodc.org/unodc/es/index.html"
 
-      [[params.sponsors2]]
+      [[params.sponsors3]]
         logo = "uk.png"
         link = "https://www.gov.uk/world/organisations/british-embassy-mexico-city.es-419"
 
-      [[params.sponsors2]]
+      [[params.sponsors3]]
         logo = "pnud.png"
         link = "http://www.undp.org/content/undp/es/home.html"
 
-      [[params.sponsors2]]
-        logo = "integrity.png"
-        link = "https://www.allianceforintegrity.org/es/"
-
-      [[params.sponsors2]]
+      [[params.sponsors3]]
         logo = "cpc.png"
         link = "https://cpc.org.mx/"
 
-      [[params.sponsors2]]
-        logo = "nostarch.png"
-        link = "https://nostarch.com/"
 
-    [params.sponsors3_list]
+
+
+    [params.sponsors4_list]
       enable = true
-      title = "Producido por"
+      title = "Producida por"
 
-      [[params.sponsors3]]
+      [[params.sponsors4]]
         logo = "sg.png"
         link = "https://sg.com.mx"
 
@@ -294,19 +288,29 @@ Si te interesa participar, por favor llena la forma de solicitud de participaci�
 
     [[params.faq]]
       question = "¿Hay premios?"
-      answer = "Sí, El premio principal será un paquete con regalos y herramientas de utilidad para todos los perfiles en el equipo, No será dinero. Te aseguramos que valdrá la pena el esfuerzo."
+      answer = "Sí, El premio principal será un paquete con regalos y herramientas de utilidad para todos los perfiles en el equipo. No será dinero, pero te aseguramos que valdrá la pena el esfuerzo."
 
     [[params.faq]]
       question = "¿De quien es la propiedad intelectual de los proyectos?"
       answer = "De los creadores de los proyectos"
 
     [[params.faq]]
-      question = "¿Cómo van a evaluar los proyectos?"
-      answer = "Cada equipo tendrá 4 minutos para presentar su solución, los elementos que se van a evaluar son: <ul><li>Relevancia</li><li>Reproducibilidad</li><li>Impacto</li><li>Uso de datos del SESNA</li><ul>"
+      question = "¿Qué tipo de entregables esperan?"
+      answer = """
+Las y los participantes tendrán que utilizar los estándares de los sistemas 2, 3 y 6 para generar entre ellos la relación de datos. Se espera que la relación de datos permita entender las conexiones que existen entre la información.
+"""
 
     [[params.faq]]
-      question = "¿Qué tipo de entregables esperan?"
-      answer = "ntendemos que por el tiempo de trabajo tan corto es difícil que puedas terminar un proyecto que la mayoría de los  entregables serán  de análisis descriptivo, sabemos que no hay tanta data para hacer  predicciones pero algunas ideas de que lo puedes entregar es:<br> Notebook de Jupyter<br>por su puesto Un Dashboard sería genial<br>Si trabajas con R un entregable con R y markdown eso puede funcionar "
+      question = "¿Cómo van a evaluar los proyectos?"
+      answer = """
+      Cada equipo tendrá un tiempo breve para presentar su propuesta. Se evaluarán los siguientes cinco elementos individualmente y al final se tendrá una calificación final sumando las calificaciones individuales: 
+      
+1. Uso de datos de la SESNA. Se calificará calculando el número de datasets usados. 
+2. Reproducibilidad. Vale 1 si los resultados se pueden reproducir en otra máquina y por otra persona. Vale 0 en otro caso. 
+3. Documentación. Vale 1 si existe un README (guía de implementación) de cómo correr el proyecto. Vale 0 en otro caso. 
+4. Uso de software libre. Vale 1 si todo el software que se usa es libre y gratuito, 0.5 si existe tanto software libre como propietario y 0 si es sólo uso de software propietario. 
+5. Impacto. Vale 1 si los resultados de la herramienta con respecto al objetivo del reto son de alto impacto, 0.5 si son de mediano impacto y 0 si son de bajo impacto.   
+"""
 
   # Footer section
   [params.footer]
