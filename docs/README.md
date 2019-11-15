@@ -1,7 +1,7 @@
 
 Este repositorio tiene el código del sitio web en https://datatonanticorrupcion.mx.
 
-Está hecho con Hugo (https://gohugo.io/), un generador de sitios estático.
+Está hecho con Hugo (https://gohugo.io/), un generador de sitios estáticos.
 
 La carpeta /docs es la que tiene el sitio estático, que se está sirviendo via GitHub Pages.
 
