@@ -116,7 +116,7 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
 
   # Mentores
   [params.mentores]
-    enable = true
+    enable = false
     #center = true
     title = "Mentores"
 
