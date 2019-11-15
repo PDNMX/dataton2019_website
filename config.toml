@@ -20,7 +20,7 @@ googleAnalytics = "UA-21077034-33"
   description = """El datatón anticorrupción es un evento donde construiremos herramientas 
   que utilicen datos abiertos con el fin de combatir la corrupción en México."""
   image = "https://datatonanticorrupcion.mx/img/dataton-card.png"
-  twitter_user = "@RevistaSG"
+  twitter_user = "@SESNAOficial"
   # email = "your@email.com"
 
   # Link custom assets relative to /static
@@ -39,7 +39,7 @@ googleAnalytics = "UA-21077034-33"
 
   # Navigation
   [params.navigation]
-    brand = "DataTón Anticorrupción"
+    brand = "Datatón Anticorrupción 2019"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     info = "Convocatoria"
@@ -84,9 +84,9 @@ googleAnalytics = "UA-21077034-33"
 herramientas que utilicen datos abiertos con el fin de combatir la corrupción en nuestro país.
 
 #### Fecha y sede
-El evento se realizará el **sábado 8 de diciembre de 9 a 18 hrs** en las instalaciones de NUMA, ubicadas en:
+El evento se realizará el **sábado 7 de diciembre de 9 a 20 hrs** en la Escuela de Gobierno y Transformación Pública del Tecnológico de Monterrey, sede Mixcoac ubicada en 
 
-> Campeche 233 Col. Hipódromo. Ciudad de México. 
+> Av. Revolución 756, CDMX.
 
 #### Dirigido a
 Aunque la participación es abierta, consideramos que las personas que más pueden aportar son aquellas con experiencia 
@@ -94,7 +94,7 @@ en alguno de los siguientes campos: ciencia de datos, desarrollo de software, co
 una capacidad limitada en la sede, daremos prioridad de participación a las personas con estos roles.
 
 #### Quién convoca
-Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataformadigitalnacional.org), y es producido por <a href="https://sg.com.mx">Software Guru</a>.
+Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataformadigitalnacional.org) con el patrocinio de USAID, y es producido por <a href="https://sg.com.mx">Software Guru</a>.
 """
 
   # Sección para registro
@@ -110,9 +110,9 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
   [params.sede]
   enable = false
   title = "Sede"
-  name = "NUMA México"
-  description = """Campeche 233 Col. Hipódromo. Ciudad de México.  
-  https://www.numa.co/mexico
+  name = "Escuela de Gobierno y Transformación Pública del Tecnológico de Monterrey"
+  description = """Av. Revolución #756, Col. Mixcoac. CDMX
+  https://escueladegobierno.itesm.mx/acerca-de-la-escuela
   """
 
   # Team section
