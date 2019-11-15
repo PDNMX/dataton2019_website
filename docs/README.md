@@ -17,3 +17,9 @@ Para hacer cambios al sitio, se haría lo siguiente:
     - Las imagenes se suben a **themes/dataton-agency/static/img/**
 4. Puedes probar el sitio localmente corriendo `hugo serve` desde el directorio raíz.
 5. Para "compilar" el sitio en archivos estáticos, ejecutar `hugo` desde el directorio raíz, y esto va a poner los archivos estáticos en  el directorio /docs
+6. Para actualizar el sitio "en vivo", simplemente haz:
+```
+git add .
+git commit -m "Descripción de los cambios"
+git push origin master
+```
