@@ -245,7 +245,6 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
         logo = "imco.png"
         link = "https://imco.org.mx/conoce-imco"
 
-
     [params.sponsors4_list]
       enable = true
       title = "Producido por"
