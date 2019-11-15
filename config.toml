@@ -41,7 +41,7 @@ googleAnalytics = "UA-21077034-33"
   [params.navigation]
     brand = "Datatón Anticorrupción 2019"
     # Optional logo as brand stored in img/
-    #logo = "logo.svg"
+    logo = "logo-navbar.svg"
     info = "Convocatoria"
     mentores = "Mentores"
     sede = "Sede"
@@ -206,7 +206,7 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
       title = "Una iniciativa de"
 
       [[params.sponsors1]]
-        logo = "pdn_logo_texto.png"
+        logo = "PDN.png"
         link = "https://plataformadigitalnacional.org"
 
       [[params.sponsors1]]
@@ -215,43 +215,32 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
 
     [params.sponsors2_list]
       enable = true
-      title = "Patrocinada por" 
+      title = "Patrocinado por" 
 
       [[params.sponsors2]]
         logo = "usaid.png"
-        link = "https://www.usaid.gov"
+        link = "https://www.usaid.gov/es/mexico"
 
     [params.sponsors3_list]
       enable = true
       title = "Con el apoyo de" 
 
       [[params.sponsors3]]
-        logo = "coparmex.png"
-        link = "https://coparmex.org.mx"
-
-
-      [[params.sponsors3]]
-        logo = "unodc.png"
-        link = "https://www.unodc.org/unodc/es/index.html"
+        logo = "escuela-gobierno.png"
+        link = "https://escueladegobierno.itesm.mx"
 
       [[params.sponsors3]]
         logo = "uk.png"
         link = "https://www.gov.uk/world/organisations/british-embassy-mexico-city.es-419"
 
       [[params.sponsors3]]
-        logo = "pnud.png"
-        link = "http://www.undp.org/content/undp/es/home.html"
-
-      [[params.sponsors3]]
-        logo = "cpc.png"
-        link = "https://cpc.org.mx/"
-
-
+        logo = "shcp_uif.png"
+        link = "https://www.gob.mx/hacienda"
 
 
     [params.sponsors4_list]
       enable = true
-      title = "Producida por"
+      title = "Producido por"
 
       [[params.sponsors4]]
         logo = "sg.png"

@@ -15,7 +15,6 @@
           {{ $url := printf "img/%s" .Site.Params.navigation.logo }}
           <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Site.Params.navigation.brand }}">
         </a>
-      {{ else }}
         <a class="navbar-brand page-scroll" href="{{ if .IsHome }}/#page-top{{ else }}{{ .Site.BaseURL }}{{ end }}">
           {{ .Site.Params.navigation.brand }}
         </a>

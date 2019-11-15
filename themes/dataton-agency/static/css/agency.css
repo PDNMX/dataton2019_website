@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: Montserrat,Arial,sans-serif;
+    font-family: 'Noto Sans SC',Arial,sans-serif;
     font-size: 16px;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 .text-primary {
-    color: #70e597;
+    color: #3ab0e5;
 }
 
 p {
@@ -42,7 +42,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #70e597;
+    color: #3ab0e5;
 }
 
 h1,
@@ -51,8 +51,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Montserrat,Helvetica,Arial,sans-serif;
-    font-weight: 600;
+    font-family: 'Noto Sans SC',Helvetica,Arial,sans-serif;
+    font-weight: 500;
 }
 
 h1, h2, h3 {
@@ -72,12 +72,12 @@ h1, h2, h3 {
 }
 
 .btn-primary {
-    border-color: #70e597;
+    border-color: #3ab0e5;
     text-transform: uppercase;
-    font-family: Montserrat,Helvetica,Arial,sans-serif;
-    font-weight: 600;
+    font-family: 'Noto Sans SC',Helvetica,Arial,sans-serif;
+    font-weight: 500;
     color: #fff;
-    background-color: #70e597;
+    background-color: #3ab0e5;
 }
 
 .btn-primary:hover,
@@ -111,25 +111,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #70e597;
-    background-color: #70e597;
+    border-color: #3ab0e5;
+    background-color: #3ab0e5;
 }
 
 .btn-primary .badge {
-    color: #70e597;
+    color: #3ab0e5;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #70e597;
+    border-color: #3ab0e5;
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    font-family: 'Noto Sans SC',Helvetica,Arial,sans-serif;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
-    background-color: #70e597;
+    background-color: #3ab0e5;
 }
 
 .btn-xl:hover,
@@ -163,12 +163,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #70e597;
-    background-color: #70e597;
+    border-color: #3ab0e5;
+    background-color: #3ab0e5;
 }
 
 .btn-xl .badge {
-    color: #70e597;
+    color: #3ab0e5;
     background-color: #fff;
 }
 
@@ -181,13 +181,14 @@ fieldset[disabled] .btn-xl.active {
     font-family: Lato,Helvetica,Arial,cursive;
     color: #606060;
     font-weight:700;
+    margin-right: 1em;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #70e597;
+    color: #3ab0e5;
 }
 
 .navbar-brand>img {
@@ -217,8 +218,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #70e597;
-    background-color: #70e597;
+    border-color: #3ab0e5;
+    background-color: #3ab0e5;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -227,7 +228,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #70e597;
+    background-color: #3ab0e5;
 }
 
 .navbar-default .nav li a {
@@ -241,19 +242,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #70e597;
+    color: #3ab0e5;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #70e597;
+    background-color: #3ab0e5;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #70e597;
+    background-color: #3ab0e5;
 }
 
 @media(min-width:768px) {
@@ -303,7 +304,7 @@ header {
     font-weight: 700;
     margin-bottom:0px;
     line-height: 100%;
-    color: #70e597;
+    color: #3ab0e5;
 }
 
 .intro-text .title1 img {
@@ -317,8 +318,8 @@ header {
 }
 
 .meta {
-    font-family: Montserrat,sans-serif;
-    font-weight: 600;
+    font-family: 'Noto Sans SC',sans-serif;
+    font-weight: 500;
     font-size: 20px;
     color: #606060;
 }
@@ -543,7 +544,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #70e597;
+    background-color: #3ab0e5;
 }
 
 .timeline>li .timeline-image h4 {
@@ -708,7 +709,7 @@ section h3.section-subheading {
 }
 .mentores-member h3 {
     text-transform: none;
-    font-weight: 600;
+    font-weight: 500;
     color: #333;
 }
 
@@ -799,35 +800,35 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #70e597;
+    border-color: #3ab0e5;
     box-shadow: none;
 }
 
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,Helvetica,Arial,sans-serif;
-    font-weight: 600;
+    font-family: 'Noto Sans SC',Helvetica,Arial,sans-serif;
+    font-weight: 500;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,Helvetica,Arial,sans-serif;
-    font-weight: 600;
+    font-family: 'Noto Sans SC',Helvetica,Arial,sans-serif;
+    font-weight: 500;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,Helvetica,Arial,sans-serif;
-    font-weight: 600;
+    font-family: 'Noto Sans SC',Helvetica,Arial,sans-serif;
+    font-weight: 500;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,Helvetica,Arial,sans-serif;
-    font-weight: 600;
+    font-family: 'Noto Sans SC',Helvetica,Arial,sans-serif;
+    font-weight: 500;
     color: #bbb;
 }
 
@@ -847,7 +848,7 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    font-family: 'Noto Sans SC',Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
 
@@ -855,7 +856,7 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    font-family: 'Noto Sans SC',Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
 
@@ -882,7 +883,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #70e597;
+    background-color: #3ab0e5;
 }
 
 .btn:focus,
@@ -971,12 +972,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #70e597;
+    background: #3ab0e5;
 }
 
 ::selection {
     text-shadow: none;
-    background: #70e597;
+    background: #3ab0e5;
 }
 
 img::selection {
@@ -988,7 +989,7 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #70e597;
+    webkit-tap-highlight-color: #3ab0e5;
 }
 
 #sede {
@@ -1081,4 +1082,8 @@ article#content li {
     text-align: center;
     font-weight: bold;
     font-size: 1.1em;
+}
+
+div.sponsors {
+    margin: 5px 20px;
 }
