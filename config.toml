@@ -43,7 +43,6 @@ googleAnalytics = "UA-21077034-33"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     info = "Convocatoria"
-    registro = "Registro"
     mentores = "Mentores"
     sede = "Sede"
  
@@ -52,13 +51,18 @@ googleAnalytics = "UA-21077034-33"
 
     # postpended links
     [[menu.postpend]]
-      url = "/info/datos"
-      name = "Datos"
-      weight = 7
-
-    [[menu.postpend]]
       url = "/info/contexto"
       name = "Contexto"
+      weight = 4
+
+    [[menu.postpend]]
+      url = "/info/datos"
+      name = "Datos"
+      weight = 5
+
+    [[menu.postpend]]
+      url = "/info/solicitud"
+      name = "Participa"
       weight = 6
 
     [[menu.postpend]]
@@ -98,12 +102,9 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
 
   # Sección para registro
   [params.registro]
-    enable = true
-    title = "Registro"
-    description = """<p>El registro se ha cerrado.</p>
-    <p>Pronto publicaremos
-    aquí información sobre los proyectos desarrollados.</p>
-    """
+  enable = true
+  title = "¿Cómo participar?"
+  description = "Si te interesa participar, por favor llena la [solicitud de participación](/info/solicitud)."
 
   # Sección para sede
   [params.sede]
