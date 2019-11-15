@@ -9,7 +9,7 @@
     </div>
     <div class="row flexbox{{ if .Site.Params.sponsors.center }} flexbox-center{{ end }}">
       {{ range .Site.Params.sponsors1 }}
-        <div class="sponsors col-lg-3 col-md-3 col-sm-6 col">
+        <div class="sponsors col-lg-3 col-md-3 col-sm-5 col-xs-5 col">
           {{ $url := printf "img/logos/%s" .logo }}
           {{ if .link }}
             <a href="{{ .link }}">
@@ -31,7 +31,7 @@
     <div class="row flexbox{{ if .Site.Params.sponsors.center }} flexbox-center{{ end }}">
 
       {{ range .Site.Params.sponsors2 }}
-        <div class="sponsors col-lg-5 col-md-4 col-sm-6 col">
+        <div class="sponsors col-lg-5 col-md-6 col-sm-8 col">
           {{ $url := printf "img/logos/%s" .logo }}
           {{ if .link }}
             <a href="{{ .link }}">
@@ -53,7 +53,7 @@
     <div class="row flexbox{{ if .Site.Params.sponsors.center }} flexbox-center{{ end }}">
 
       {{ range .Site.Params.sponsors3 }}
-        <div class="sponsors col-lg-3 col-md-2 col-sm-3 col">
+        <div class="sponsors col-lg-3 col-md-3 col-sm-3 col-xs-4 col">
           {{ $url := printf "img/logos/%s" .logo }}
           {{ if .link }}
             <a href="{{ .link }}">
