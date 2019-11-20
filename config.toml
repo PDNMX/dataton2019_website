@@ -116,82 +116,121 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
 
   # Mentores
   [params.mentores]
-    enable = false
-    #center = true
+    enable = true
     title = "Mentores"
 
     # Las fotos de los mentores se almacenan en 'static/img/team'.
     # Tratar de utilizar imágenes de por lo menos 360px*360px.
 
     [[params.mentores.members]]
-      img = "paola_villarreal.jpg"
+      img = "andrew_leimdorfer.jpg"
+      name = "Andrew Leimdorfer"
+      position = "Sr Product Manager for Latin America at GDS"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/leimdorfer/"],
+        ["fa-twitter", "https://twitter.com/Leimdorfer"]
+      ]
+
+    [[params.mentores.members]]
+      img = "isela.jpg"
+      name = "Isela Morquecho"
+      position = "Directora de área en PDN"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/rosa-isela-morquecho-83535972/"],
+      ]
+
+      
+    [[params.mentores.members]]
+      img = "fernanda_mora.jpg"
+      name = "Fernanda Mora"
+      position = "Directora de área en PDN"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/fernanda-mora-alba-2588938a/"],
+      ]
+
+    [[params.mentores.members]]
+      img = "benito_perdomo.jpg"
+      name = "Benito Perdomo"
+      position = "Director de Desarrollo de la PDN"
+      social = [
+        ["fa-github", "https://github.com/BenitoPerdomo"],
+      ]
+
+    [[params.mentores.members]]
+      img = "sergio.jpg"
+      name = "Sergio Rodríguez"
+      position = "Subdirector de servicios informáticos de la PDN"
+      social = [
+      ]
+
+  # Jueces
+  [params.jueces]
+    enable = false
+    title = "Jueces"
+
+    # Las fotos de los jueces se almacenan en 'static/img/team'.
+    # Tratar de utilizar imágenes de por lo menos 360px*360px.
+
+    [[params.jueces.members]]
+      img = "romy_flores.jpg"
       name = "Romy Flores Gonzalez"
       position = "Directora de análisis para el proyecto Procura México en SHCP"
       bio = "Ingeniera en sistemas Computacionales egresada del ITESM CCM 06 . Es directora de Análisis para el proyecto Procura México para la SHCP, cuenta con certificaciones por parte de IBM en diseño de soluciones,  Solution Designer , así como en dirección de proyectos por parte del project management institute (PMI). Se ha desempeñado también en la iniciativa privada en desarrollo de negocios en innovación (INNBIT’s Business development Deputy Director) y  en tecnología para el sector público (Public Sector Competitivity manager at Softtek)"
       social = [
       ]
 
-    [[params.mentores.members]]
-      img = "sofia_ramirez.jpg"
-      name = "Sofía Ramírez"
-      position = "Directora Adjunta de Investigación Aplicada @ Mexicanos contra la Corrupción y la Impunidad"
-      social = [
-        ["fa-twitter", "https://twitter.com/sofia_ramireza"],
-      ]
+#    [[params.jueces.members]]
+#      img = "sofia_ramirez.jpg"
+#      name = "Sofía Ramírez"
+#      position = "Directora Adjunta de Investigación Aplicada @ Mexicanos contra la Corrupción y la Impunidad"
+#      social = [
+#        ["fa-twitter", "https://twitter.com/sofia_ramireza"],
+#      ]
 
-    [[params.mentores.members]]
-      img = "alexandra_zapata.jpg"
-      name = "Alexandra Zapata"
-      position = "Directora de Educación e Innovación Cívica @ Instituto Mexicano para la Competitividad (IMCO)"
-      social = [
-        ["fa-twitter", "https://twitter.com/azapatah"],
-        ["fa-linkedin", "https://www.linkedin.com/in/azapatah/"]
-      ]
+#    [[params.mentores.members]]
+#      img = "alexandra_zapata.jpg"
+#      name = "Alexandra Zapata"
+#      position = "Directora de Educación e Innovación Cívica @ Instituto Mexicano para la Competitividad (IMCO)"
+#      social = [
+#        ["fa-twitter", "https://twitter.com/azapatah"],
+#        ["fa-linkedin", "https://www.linkedin.com/in/azapatah/"]
+#      ]
       
-    [[params.mentores.members]]
-      img = "diana_sifuentes.jpg"
-      name = "Diana Sifuentes"
-      position = "Data Scientist @ Data2B"
-      social = [
-        ["fa-linkedin", "https://www.linkedin.com/in/dianasifuentesmunch/"]
-      ]
+#    [[params.mentores.members]]
+#      img = "jose_toral.jpg"
+#      name = "José Manuel Toral"
+#      position = "Especialista de datos @ Mexicanos contra la Corrupción y la Impunidad"
+#      social = [
+#        ["fa-twitter", "https://twitter.com/jmtoralc"],
+#        ["fa-linkedin", "https://www.linkedin.com/in/josetoral/"]
+#      ]
 
-    [[params.mentores.members]]
-      img = "jose_toral.jpg"
-      name = "José Manuel Toral"
-      position = "Especialista de datos @ Mexicanos contra la Corrupción y la Impunidad"
-      social = [
-        ["fa-twitter", "https://twitter.com/jmtoralc"],
-        ["fa-linkedin", "https://www.linkedin.com/in/josetoral/"]
-      ]
+#    [[params.mentores.members]]
+#      img = "jm_casanueva.jpg"
+#      name = "Juan Manuel Casanueva"
+#      position = "Director Ejecutivo @ Social TIC"
+#      social = [
+#        ["fa-twitter", "https://twitter.com/jm_casanueva"],
+#        ["fa-linkedin", "https://www.linkedin.com/in/jmcasanueva/"]
+#      ]
 
-    [[params.mentores.members]]
-      img = "jm_casanueva.jpg"
-      name = "Juan Manuel Casanueva"
-      position = "Director Ejecutivo @ Social TIC"
-      social = [
-        ["fa-twitter", "https://twitter.com/jm_casanueva"],
-        ["fa-linkedin", "https://www.linkedin.com/in/jmcasanueva/"]
-      ]
+#    [[params.mentores.members]]
+#      img = "jorge_a_castaneda.jpg"
+#      name = "Jorge Andrés Castañeda"
+#      position = "Coordinador de Proyectos @ Instituto Mexicano para la Competitividad (IMCO)"
+#      social = [
+#        ["fa-twitter", "https://twitter.com/jorgeacast"],
+#        ["fa-linkedin", "https://www.linkedin.com/in/jorge-andres-castaneda-0044a75/"]
+#      ]
 
-    [[params.mentores.members]]
-      img = "jorge_a_castaneda.jpg"
-      name = "Jorge Andrés Castañeda"
-      position = "Coordinador de Proyectos @ Instituto Mexicano para la Competitividad (IMCO)"
-      social = [
-        ["fa-twitter", "https://twitter.com/jorgeacast"],
-        ["fa-linkedin", "https://www.linkedin.com/in/jorge-andres-castaneda-0044a75/"]
-      ]
-
-    [[params.mentores.members]]
-      img = "jesus_ramos.jpg"
-      name = "Jesús Ramos"
-      position = "Director de Operaciones @ Datank.ai"
-      social = [
-        ["fa-twitter", "https://twitter.com/xuxoramos"],
-        ["fa-linkedin", "https://www.linkedin.com/in/xuxoramos/"]
-      ]
-
+#    [[params.mentores.members]]
+#      img = "jesus_ramos.jpg"
+#      name = "Jesús Ramos"
+#      position = "Director de Operaciones @ Datank.ai"
+#      social = [
+#        ["fa-twitter", "https://twitter.com/xuxoramos"],
+#        ["fa-linkedin", "https://www.linkedin.com/in/xuxoramos/"]
+#      ]
 
 
   # Sponsors section

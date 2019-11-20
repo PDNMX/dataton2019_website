@@ -692,26 +692,26 @@ section h3.section-subheading {
   justify-content: center;
 }
 
-.mentores-member {
+.team-member {
     margin-bottom: 50px;
     text-align: center;
 }
 
-.mentores-member img {
+.team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
 }
 
-.mentores-member p {
+.team-member p {
     margin-top: 0;
 }
-.mentores-member h3 {
+.team-member h3 {
     text-transform: none;
     font-weight: 500;
     color: #333;
 }
 
-.mentores-member h4 {
+.team-member h4 {
     font-size: 16px;
     text-transform: none;
     font-weight: 400;
@@ -719,11 +719,11 @@ section h3.section-subheading {
     margin-bottom: 0px;
 }
 
-.mentores-member h4 a {
+.team-member h4 a {
     text-transform: none;
 }
 
-.mentores-member h5 {
+.team-member h5 {
     font-size: 14px;
     text-transform: none;
     font-style: italic;
@@ -732,15 +732,15 @@ section h3.section-subheading {
     margin-bottom: 15px
 }
 
-.mentores-member .report  {
+.team-member .report  {
     margin-top: 0px;
 }
 
-.mentores-member h5 a {
+.team-member h5 a {
     text-transform: none;
 }
 
-.mentores-member ul {
+.team-member ul {
     list-style: none;
     text-align: center;
     margin-top: 15px;
@@ -748,7 +748,7 @@ section h3.section-subheading {
     padding: 0;
 }
 
-.mentores-bio {
+.team-bio {
     display: none;
 }
 
