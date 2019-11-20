@@ -43,7 +43,6 @@ googleAnalytics = "UA-21077034-33"
     # Optional logo as brand stored in img/
     logo = "logo-navbar.svg"
     info = "Convocatoria"
-    mentores = "Mentores"
     sede = "Sede"
  
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -58,7 +57,7 @@ googleAnalytics = "UA-21077034-33"
     [[menu.postpend]]
       url = "/info/datos"
       name = "Datos"
-      weight = 5
+      weight = 6
 
     [[menu.postpend]]
       url = "/info/solicitud"
@@ -165,19 +164,53 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
 
   # Jueces
   [params.jueces]
-    enable = false
+    enable = true
     title = "Jueces"
 
     # Las fotos de los jueces se almacenan en 'static/img/team'.
     # Tratar de utilizar imágenes de por lo menos 360px*360px.
 
     [[params.jueces.members]]
-      img = "romy_flores.jpg"
-      name = "Romy Flores Gonzalez"
-      position = "Directora de análisis para el proyecto Procura México en SHCP"
-      bio = "Ingeniera en sistemas Computacionales egresada del ITESM CCM 06 . Es directora de Análisis para el proyecto Procura México para la SHCP, cuenta con certificaciones por parte de IBM en diseño de soluciones,  Solution Designer , así como en dirección de proyectos por parte del project management institute (PMI). Se ha desempeñado también en la iniciativa privada en desarrollo de negocios en innovación (INNBIT’s Business development Deputy Director) y  en tecnología para el sector público (Public Sector Competitivity manager at Softtek)"
+      img = "chantal.jpg"
+      name = "Chantal Donaldson-Foyer"
+      position = "Head of Product at Government Digital Service, UK"
       social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/chfoyer/"], 
+        ["fa-twitter", "https://twitter.com/Ch_Foyer"]       
       ]
+
+    [[params.jueces.members]]
+      img = "pablo_villarreal.png"
+      name = "Pablo Villarreal"
+      position = "Titular de la Unidad de la Plataforma Digital Nacional"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/pablovillarreal/"],        
+      ]
+
+    [[params.jueces.members]]
+      img = "sergio_alberto.jpg"
+      name = "Sergio Alberto Martín Esquivel"
+      position = "Consejero de la Organización Internacional de Integridad de la Administración Pública"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/sergio-alberto-martin-esquivel-62b48947"] 
+      ]
+
+    [[params.jueces.members]]
+      img = "mario_torres.jpg"
+      name = "Mario Alfonso Torres Rivera"
+      position = "Director General Adjunto de la PDN"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/mario-torres"], 
+        ["fa-github", "https://github.com/mariotorres"]       
+      ]
+
+
+#    [[params.jueces.members]]
+#      img = "romy_flores.jpg"
+#      name = "Romy Flores"
+#      position = "Directora de análisis para el proyecto Procura México en SHCP"
+#      social = [
+#      ]
 
 #    [[params.jueces.members]]
 #      img = "sofia_ramirez.jpg"
