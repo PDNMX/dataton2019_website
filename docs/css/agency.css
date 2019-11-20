@@ -1017,19 +1017,16 @@ ul.faq {
     padding-left: 0px;
 }
 
-ul.faq li {
-    border: 1px solid #808080;
-}
 a.faq-question {
     padding: 0.5em 1em;
-    color: #285c54;
+    color: #3ab0e5;
     text-decoration: none;
     background-color: #d0d0d0;
     display: block;
 }
 .faq-answer {
     padding: 0.5em 1em;
-    border-top: 2px solid #285c54;
+    border-top: 2px solid #3ab0e5;
     background-color: #ffffff;
     color: #404040;
 }
