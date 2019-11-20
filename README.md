@@ -16,8 +16,8 @@ Para hacer cambios al sitio, recomendamos modificar los archivos y usar Hugo par
 3. Modificar los archivos correspondientes:
     - `/config.toml` tiene la información general del sitio, mentores, jueces y patrocinadores
     - El resto de las páginas se contruye a partir de los archivos markdown bajo `/content/info`
-    - El css está en `/themes/dataton-agency/static/css/agency.css
+    - El css está en `/themes/dataton-agency/static/css/agency.css`
     - Las imágenes se ponen en `/themes/dataton-agency/static/img`
 4. Probar el sitio localmente con el comando `hugo server` desde el directorio raíz. Esto muestra el sitio en http://localhost:1313
 5. Generar la versión estática del sitio con el comando `hugo` desde el directorio raíz. Esto actualizará los archivos bajo /docs.
-6. Subir el repositorio actualizado a GitHub (git add . -> git commit -> git push origin master)
+6. Subir el repositorio actualizado a GitHub (`git add .` -> `git commit -m "..."` -> `git push origin master`)
