@@ -161,6 +161,7 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
       name = "Sergio Rodríguez"
       position = "Subdirector de servicios informáticos de la PDN"
       social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/sergio-rodr%C3%ADguez-segura-4458b579/"]
       ]
 
   # Jueces
@@ -203,6 +204,14 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
       social = [
         ["fa-linkedin", "https://www.linkedin.com/in/mario-torres"], 
         ["fa-github", "https://github.com/mariotorres"]       
+      ]
+
+    [[params.jueces.members]]
+      img = "enrique_zapata.png"
+      name = "Enrique Zapata"
+      position = "Inteligencia de Datos y Nuevas Tecnologías en Banco de Desarrollo de América Latina (CAF)"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/enrique-zapata-14a12450/"]
       ]
 
 
