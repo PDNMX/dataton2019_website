@@ -1,5 +1,6 @@
 # Site settings
 baseurl = "https://datatonanticorrupcion.mx/"
+relativeURLs = true
 languageCode = "es-mx"
 defaultContentLanguage = "es"
 title = "Datatón Anticorrupción"
