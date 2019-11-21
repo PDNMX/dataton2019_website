@@ -186,7 +186,8 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
       name = "Pablo Villarreal"
       position = "Titular de la Unidad de la Plataforma Digital Nacional"
       social = [
-        ["fa-linkedin", "https://www.linkedin.com/in/pablovillarreal/"],        
+        ["fa-linkedin", "https://www.linkedin.com/in/pablovillarreal/"],  
+        ["fa-twitter", "https://twitter.com/pablo_vs1"]  
       ]
 
     [[params.jueces.members]]
@@ -211,7 +212,8 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
       name = "Enrique Zapata"
       position = "Inteligencia de Datos y Nuevas Tecnologías en Banco de Desarrollo de América Latina (CAF)"
       social = [
-        ["fa-linkedin", "https://www.linkedin.com/in/enrique-zapata-14a12450/"]
+        ["fa-linkedin", "https://www.linkedin.com/in/enrique-zapata-14a12450/"],
+        ["fa-twitter", "https://twitter.com/Enrique_Za"]  
       ]
 
 
@@ -308,23 +310,23 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
       title = "Con el apoyo de" 
 
       [[params.sponsors3]]
-        logo = "escuela-gobierno.png"
+        logo = "escuela-gobierno2.png"
         link = "https://escueladegobierno.itesm.mx"
 
       [[params.sponsors3]]
-        logo = "uk.png"
+        logo = "uk2.png"
         link = "https://www.gov.uk/world/organisations/british-embassy-mexico-city.es-419"
 
       [[params.sponsors3]]
-        logo = "shcp.png"
+        logo = "shcp2.jpg"
         link = "https://www.gob.mx/hacienda"
 
       [[params.sponsors3]]
-        logo = "caf.png"
+        logo = "caf2.png"
         link = "https://www.caf.com"
 
       [[params.sponsors3]]
-        logo = "imco.png"
+        logo = "imco2.png"
         link = "https://imco.org.mx/conoce-imco"
 
     [params.sponsors4_list]
