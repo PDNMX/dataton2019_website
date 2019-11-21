@@ -217,12 +217,12 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
       ]
 
 
-#    [[params.jueces.members]]
-#      img = "romy_flores.jpg"
-#      name = "Romy Flores"
-#      position = "Directora de análisis para el proyecto Procura México en SHCP"
-#      social = [
-#      ]
+    [[params.jueces.members]]
+      img = "romy_flores.jpg"
+      name = "Romy Flores"
+      position = "Directora de análisis para el proyecto Procura México en SHCP"
+      social = [
+      ]
 
 #    [[params.jueces.members]]
 #      img = "sofia_ramirez.jpg"
@@ -314,12 +314,12 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
         link = "https://escueladegobierno.itesm.mx"
 
       [[params.sponsors3]]
-        logo = "uk2.png"
-        link = "https://www.gov.uk/world/organisations/british-embassy-mexico-city.es-419"
-
-      [[params.sponsors3]]
         logo = "shcp2.jpg"
         link = "https://www.gob.mx/hacienda"
+
+      [[params.sponsors3]]
+        logo = "uk2.png"
+        link = "https://www.gov.uk/world/organisations/british-embassy-mexico-city.es-419"
 
       [[params.sponsors3]]
         logo = "caf2.png"
