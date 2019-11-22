@@ -289,24 +289,26 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
 
     [params.sponsors1_list]
       enable = true
-      title = "Una iniciativa de"
+      title = "Patrocinado por"
 
       [[params.sponsors1]]
-        logo = "PDN_plataforma.png"
-        link = "https://plataformadigitalnacional.org"
+        logo = "usaid.png"
+        link = "https://www.usaid.gov/es/mexico"
 
-      [[params.sponsors1]]
-        logo = "sesna.png"
-        link = "https://www.gob.mx/sesna"
+
 
     [params.sponsors2_list]
       
       enable = true
-      title = "Patrocinado por" 
+      title = "Una iniciativa de " 
 
       [[params.sponsors2]]
-        logo = "usaid.png"
-        link = "https://www.usaid.gov/es/mexico"
+        logo = "PDN_plataforma.png"
+        link = "https://plataformadigitalnacional.org"
+
+      [[params.sponsors2]]
+        logo = "sesna.png"
+        link = "https://www.gob.mx/sesna"
 
     [params.sponsors3_list]
       enable = true
