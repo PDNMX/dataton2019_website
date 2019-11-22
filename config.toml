@@ -177,7 +177,8 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
       name = "Romy Flores"
       position = "Directora de análisis para el proyecto Procura México en SHCP"
       social = [
-        ["fa-linkedin", "https://www.linkedin.com/in/romyflores/"]
+        ["fa-linkedin", "https://www.linkedin.com/in/romyflores/"],
+        ["fa-twitter", "https://twitter.com/romyflores"] 
       ]
 
     [[params.jueces.members]]
