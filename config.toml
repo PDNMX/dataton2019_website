@@ -299,6 +299,7 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
         link = "https://www.gob.mx/sesna"
 
     [params.sponsors2_list]
+      
       enable = true
       title = "Patrocinado por" 
 
@@ -384,7 +385,7 @@ Las y los participantes tendrán que utilizar los estándares de los sistemas 2,
   # Footer section
   [params.footer]
     enable = true
-    copyright = ""
+    copyright = "La realización del datatón anticorrupción es posible gracias al apoyo del pueblo de de los Estados Unidos a través de la Agencia de los Estados Unidos para el desarrollo Internacional (USAID). El evento es responsabilidad de los organizadores y no refleja necesariamente el punto de vista de USAID o del gobierno de los  Estados Unidos de América."
 
     [[params.footer.social]]
       icon = "fa-twitter"
