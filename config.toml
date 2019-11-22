@@ -326,10 +326,6 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
         logo = "caf2.png"
         link = "https://www.caf.com"
 
-      [[params.sponsors3]]
-        logo = "imco2.png"
-        link = "https://imco.org.mx/conoce-imco"
-
     [params.sponsors4_list]
       enable = true
       title = "Producido por"
