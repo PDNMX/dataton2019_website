@@ -164,6 +164,15 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
         ["fa-linkedin", "https://www.linkedin.com/in/sergio-rodr%C3%ADguez-segura-4458b579/"]
       ]
 
+      [[params.mentores.members]]
+      img = "nicolas.jpeg"
+      name = "José R. Nicolás Carlock"
+      position = "Investigador del Observatorio de la Corrupción e Impunidad Instituto de Investigaciones Jurídicas, UNAM"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/jos%C3%A9-roberto-nicol%C3%A1s-carlock-a32927198/"],
+        ["fa-twitter", "https://twitter.com/jrncarlock"]  
+      ]
+
   # Jueces
   [params.jueces]
     enable = true
@@ -223,6 +232,15 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
       social = [
         ["fa-linkedin", "https://www.linkedin.com/in/enrique-zapata-14a12450/"],
         ["fa-twitter", "https://twitter.com/Enrique_Za"]  
+      ]
+
+      [[params.jueces.members]]
+      img = "nicolas.jpeg"
+      name = "José R. Nicolás Carlock"
+      position = "Investigador del Observatorio de la Corrupción e Impunidad Instituto de Investigaciones Jurídicas, UNAM"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/jos%C3%A9-roberto-nicol%C3%A1s-carlock-a32927198/"],
+        ["fa-twitter", "https://twitter.com/jrncarlock"]  
       ]
 
 
