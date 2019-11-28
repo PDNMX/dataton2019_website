@@ -842,14 +842,45 @@ section#contact .text-success {
 
 footer {
     padding: 25px 0;
-    text-align: center;
 }
 
-footer span.copyright {
-    text-transform: uppercase;
-    text-transform: none;
-    font-family: 'Noto Sans SC',Helvetica,Arial,sans-serif;
-    line-height: 40px;
+.footergrid {
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    align-items: end;
+    border-top: solid 1px #c0c0c0;
+}
+
+.teamgrid {
+    display: grid;
+    grid-column-gap: 20px;
+}
+
+@media(max-width:767px) {
+    .teamgrid {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media(min-width:768px) {
+    .teamgrid {
+        grid-template-columns: 33% 33% 33%;
+    }
+}
+@media(min-width:992px) {
+    .teamgrid {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}    
+
+
+
+footer span.leyenda {
+    font-size: 0.9em;
+    font-style: italic;
+    padding: 0 2em;
+
 }
 
 footer ul.quicklinks {

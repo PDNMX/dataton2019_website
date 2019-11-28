@@ -2,10 +2,16 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-12 text-center">
+        <span class="leyenda">{{ with .Site.Params.footer.leyenda }}{{ . | markdownify }}{{ end }}</span>
+      </div>
+    </div>
+    <div class="footergrid">
+      <div>
         <span class="copyright">{{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ end }}</span>
       </div>
-      <div class="col-md-4">
+
+      <div class="text-center">
         <ul class="list-inline social-buttons">
 
           {{ range .Site.Params.footer.social }}
@@ -14,7 +20,7 @@
 
         </ul>
       </div>
-      <div class="col-md-4">
+      <div class="text-right">
         <ul class="list-inline quicklinks">
 
           {{ range .Site.Params.footer.quicklinks }}

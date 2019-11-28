@@ -173,6 +173,41 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
         ["fa-twitter", "https://twitter.com/jrncarlock"]  
       ]
 
+      [[params.mentores.members]]
+      img = "jmcasanueva.jpg"
+      name = "Juan Manuel Casanueva"
+      position = "Fundador y Director @ Social TIC"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/jmcasanueva/"]
+      ]
+
+      [[params.mentores.members]]
+      img = "andrea.jpg"
+      name = "Andrea Deydén"
+      position = "Editora de Política e Investigaciones Especiales @ El CEO"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/andrea-deyd%C3%A9n-1604b716/"],
+        ["fa-twitter", "https://twitter.com/a_deyden"]
+      ]
+
+      [[params.mentores.members]]
+      img = "toral.jpg"
+      name = "Manuel Toral"
+      position = "Secretario Técnico @ Consejo de la Judicatura Federal"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/josetoral/"]
+      ]
+
+      [[params.mentores.members]]
+      img = "joseph.jpg"
+      name = "Joseph Brandim-Howson"
+      position = "Investigador en el Centro de Estudios Latinoamericanos, Universidad de Cambridge"
+      social = [
+        ["fa-link", "http://www.latin-american.cam.ac.uk/node/92/joseph-brandim-howson"]
+      ]
+
+
+
   # Jueces
   [params.jueces]
     enable = true
@@ -182,21 +217,21 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
     # Tratar de utilizar imágenes de por lo menos 360px*360px.
 
     [[params.jueces.members]]
-      img = "romy_flores.jpg"
-      name = "Romy Flores"
-      position = "Directora de análisis para el proyecto Procura México en SHCP"
-      social = [
-        ["fa-linkedin", "https://www.linkedin.com/in/romyflores/"],
-        ["fa-twitter", "https://twitter.com/romyflores"] 
-      ]
-
-    [[params.jueces.members]]
       img = "chantal.jpg"
       name = "Chantal Donaldson-Foyer"
       position = "Head of Product at Government Digital Service, UK"
       social = [
         ["fa-linkedin", "https://www.linkedin.com/in/chfoyer/"], 
         ["fa-twitter", "https://twitter.com/Ch_Foyer"]       
+      ]
+
+    [[params.jueces.members]]
+      img = "romy_flores.jpg"
+      name = "Romy Flores"
+      position = "Directora de análisis para el proyecto Procura México en SHCP"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/romyflores/"],
+        ["fa-twitter", "https://twitter.com/romyflores"] 
       ]
 
     [[params.jueces.members]]
@@ -226,7 +261,7 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
       ]
 
     [[params.jueces.members]]
-      img = "enrique_zapata.png"
+      img = "enrique.jpg"
       name = "Enrique Zapata"
       position = "Inteligencia de Datos y Nuevas Tecnologías en Banco de Desarrollo de América Latina (CAF)"
       social = [
@@ -406,7 +441,8 @@ Las y los participantes tendrán que utilizar los estándares de los sistemas 2,
   # Footer section
   [params.footer]
     enable = true
-    copyright = "La realización del datatón anticorrupción es posible gracias al apoyo del pueblo de de los Estados Unidos a través de la Agencia de los Estados Unidos para el desarrollo Internacional (USAID). El evento es responsabilidad de los organizadores y no refleja necesariamente el punto de vista de USAID o del gobierno de los  Estados Unidos de América."
+    leyenda = "La realización del datatón anticorrupción es posible gracias al apoyo del pueblo de de los Estados Unidos a través de la Agencia de los Estados Unidos para el desarrollo Internacional (USAID). El evento es responsabilidad de los organizadores y no refleja necesariamente el punto de vista de USAID o del gobierno de los Estados Unidos de América."
+    copyright = "Otro fantástico evento de <a href='https://sg.com.mx'>SG</a>."
 
     [[params.footer.social]]
       icon = "fa-twitter"
