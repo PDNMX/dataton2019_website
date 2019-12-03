@@ -80,7 +80,7 @@ googleAnalytics = "UA-21077034-33"
     enable = true
     title = "Convocatoria"
     description= """Te invitamos a participar en el datatón anticorrupción, un evento donde diseñaremos y construiremos 
-herramientas digitales para detectar y combatir la corrupción por medio de datos abiertos.
+herramientas digitales para detectar y combatir la corrupción por medio de datos abiertos, puedes consultar el <strong><a href="https://youtu.be/RFzfXy8XDN4">Webinar</a></strong> que realizamos con más información sobre los datos que vamos usar en el Datatón.
 
 #### Fecha y sede
 El evento se realizará el **sábado 7 de diciembre de 9 a 20 hrs** en la Escuela de Gobierno y Transformación Pública del Tecnológico de Monterrey, sede Mixcoac ubicada en 
@@ -374,6 +374,10 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
       [[params.sponsors3]]
         logo = "shcp2.jpg"
         link = "https://www.gob.mx/hacienda"
+      
+      [[params.sponsors3]]
+        logo = "msft.jpg"
+        link = "https://developer.microsoft.com/es-es/"
 
       [[params.sponsors3]]
         logo = "uk2.png"
