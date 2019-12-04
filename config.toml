@@ -380,6 +380,10 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
         link = "https://developer.microsoft.com/es-es/"
 
       [[params.sponsors3]]
+        logo = "cc.jpg"
+        link = "https://cc.org.mx/"
+
+      [[params.sponsors3]]
         logo = "uk2.png"
         link = "https://www.gov.uk/world/organisations/british-embassy-mexico-city.es-419"
 
