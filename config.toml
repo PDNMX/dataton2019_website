@@ -199,6 +199,15 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
       ]
 
       [[params.mentores.members]]
+      img = "isaac.jpg"
+      name = "Isaac Ortiz "
+      position = "Secretario Técnico de la Auditoría Especial del Gasto Federalizado "
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/david-isaac-ortiz-calzada-850279199/"],
+        ["fa-twitter", "https://twitter.com/Isaac_Ortiz26"]
+      ]
+
+      [[params.mentores.members]]
       img = "joseph.jpg"
       name = "Joseph Brandim-Howson"
       position = "Investigador en el Centro de Estudios Latinoamericanos, Universidad de Cambridge"
@@ -382,6 +391,10 @@ Este evento es una iniciativa de la [Plataforma Digital Nacional](https://plataf
       [[params.sponsors3]]
         logo = "cc.jpg"
         link = "https://cc.org.mx/"
+
+      [[params.sponsors3]]
+        logo = "asf.jpg"
+        link = "https://www.asf.gob.mx/Default/Index"
 
       [[params.sponsors3]]
         logo = "uk2.png"
